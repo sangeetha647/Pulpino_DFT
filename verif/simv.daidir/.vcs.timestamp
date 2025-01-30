@@ -1,0 +1,805 @@
+136      
+0 axi_bus.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/axi_bus.sv
+0 /home/nitintyagi/pulpino/rtl/axi_bus.sv
+0 config.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/config.sv
+0 /home/nitintyagi/pulpino/rtl/config.sv
+0 apb_bus.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/apb_bus.sv
+0 /home/nitintyagi/pulpino/rtl/apb_bus.sv
+0 debug_bus.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/debug_bus.sv
+0 /home/nitintyagi/pulpino/rtl/debug_bus.sv
+0 adbg_defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/adbg_defines.v
+0 /home/nitintyagi/pulpino/rtl/adbg_defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/adbg_defines.v
+0 /home/nitintyagi/pulpino/tb/adbg_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/adbg_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/adbg_defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/adbg_defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/adbg_defines.v
+0 adbg_axi_defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/rtl/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/tb/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/adbg_axi_defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/adbg_axi_defines.v
+0 adbg_lint_defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/rtl/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/tb/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/adbg_lint_defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/adbg_lint_defines.v
+0 adbg_or1k_defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/rtl/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/tb/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/adbg_or1k_defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/adbg_or1k_defines.v
+0 adbg_tap_defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/rtl/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/tb/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/adbg_tap_defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/adbg_tap_defines.v
+0 i2c_master_defines.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/i2c_master_defines.sv
+0 /home/nitintyagi/pulpino/rtl/i2c_master_defines.sv
+0 /home/nitintyagi/pulpino/rtl/includes/i2c_master_defines.sv
+0 /home/nitintyagi/pulpino/tb/i2c_master_defines.sv
+0 defines_event_unit.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/defines_event_unit.sv
+0 /home/nitintyagi/pulpino/rtl/defines_event_unit.sv
+0 /home/nitintyagi/pulpino/rtl/includes/defines_event_unit.sv
+0 /home/nitintyagi/pulpino/tb/defines_event_unit.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/defines_event_unit.sv
+0 apu_macros.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/apu_macros.sv
+0 /home/nitintyagi/pulpino/rtl/apu_macros.sv
+0 /home/nitintyagi/pulpino/rtl/includes/apu_macros.sv
+0 /home/nitintyagi/pulpino/tb/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/apu_macros.sv
+0 /home/nitintyagi/pulpino/ips/axi/axi_node/apu_macros.sv
+0 riscv_config.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/riscv_config.sv
+0 /home/nitintyagi/pulpino/rtl/riscv_config.sv
+0 /home/nitintyagi/pulpino/rtl/includes/riscv_config.sv
+0 /home/nitintyagi/pulpino/tb/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/riscv_config.sv
+0 /home/nitintyagi/pulpino/ips/axi/axi_node/riscv_config.sv
+0 tb_udiv.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/tb_udiv.sv
+0 /home/nitintyagi/pulpino/rtl/tb_udiv.sv
+0 /home/nitintyagi/pulpino/rtl/includes/tb_udiv.sv
+0 /home/nitintyagi/pulpino/tb/tb_udiv.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/tb_udiv.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/tb_udiv.sv
+0 tb_urem.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/tb_urem.sv
+0 /home/nitintyagi/pulpino/rtl/tb_urem.sv
+0 /home/nitintyagi/pulpino/rtl/includes/tb_urem.sv
+0 /home/nitintyagi/pulpino/tb/tb_urem.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/tb_urem.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/tb_urem.sv
+0 tb_div.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/tb_div.sv
+0 /home/nitintyagi/pulpino/rtl/tb_div.sv
+0 /home/nitintyagi/pulpino/rtl/includes/tb_div.sv
+0 /home/nitintyagi/pulpino/tb/tb_div.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/tb_div.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/tb_div.sv
+0 tb_rem.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/tb_rem.sv
+0 /home/nitintyagi/pulpino/rtl/tb_rem.sv
+0 /home/nitintyagi/pulpino/rtl/includes/tb_rem.sv
+0 /home/nitintyagi/pulpino/tb/tb_rem.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/tb_rem.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/tb_rem.sv
+0 zeroriscy_config.sv
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/rtl/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/rtl/includes/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/tb/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/zeroriscy_config.sv
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/zeroriscy_config.sv
+0 defines.v
+0 /home/synopsys/tools/vcs/W-2024.09/etc/systemverilog/defines.v
+0 /home/nitintyagi/pulpino/rtl/defines.v
+0 /home/nitintyagi/pulpino/rtl/includes/defines.v
+0 /home/nitintyagi/pulpino/tb/defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_i2c/defines.v
+0 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines.v
+0 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/defines.v
+0 /home/nitintyagi/pulpino/ips/zero-riscy/include/defines.v
+0 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/defines.v
+298
++define+VERILATOR
++error+10000
++incdir+/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl
++incdir+/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include
++incdir+/home/nitintyagi/pulpino/ips/apb/apb_i2c/
++incdir+/home/nitintyagi/pulpino/ips/axi/axi_node
++incdir+/home/nitintyagi/pulpino/ips/riscv/include
++incdir+/home/nitintyagi/pulpino/ips/riscv/tb/serDiv
++incdir+/home/nitintyagi/pulpino/ips/zero-riscy/include
++incdir+/home/nitintyagi/pulpino/rtl
++incdir+/home/nitintyagi/pulpino/rtl/includes
++incdir+/home/nitintyagi/pulpino/tb
++itf+/home/synopsys/tools/vcs/W-2024.09/linux64/lib/vcsdp_lite.tab
++systemverilogext+.sv
++v2k
++vcsd1
++verilog2001ext+.v
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/tools/vcs/W-2024.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libvirsim.so /home/synopsys/tools/vcs/W-2024.09/linux64/lib/liberrorinf.so /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/synopsys/tools/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/tools/vcs/W-2024.09/include
+-Mxllcflags=
+-P
+-Xfile_begin_f=run_all.f
+-Xfile_end
+-Xufe=2steps
+-Xufe=2steps
+-Xufe=2steps
+-Xufe=2steps
+-debug_access+all
+-error=noMPD
+-fsdb
+-full64
+-gen_obj
+-kdb
+-kdb=common_elab
+-kdb=common_elab
+-kdb=common_elab
+-l
+-lca
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-top
+/home/synopsys/tools/vcs/W-2024.09/linux64/bin/vcs1
+sim.log
+pulpino
+/home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+/home/nitintyagi/pulpino/rtl/apb_mock_uart.sv
+/home/nitintyagi/pulpino/rtl/axi_node_intf_wrap.sv
+/home/nitintyagi/pulpino/rtl/axi_slice_wrap.sv
+/home/nitintyagi/pulpino/rtl/axi_spi_slave_wrap.sv
+/home/nitintyagi/pulpino/rtl/boot_code.sv
+/home/nitintyagi/pulpino/rtl/boot_rom_wrap.sv
+/home/nitintyagi/pulpino/rtl/clk_rst_gen.sv
+/home/nitintyagi/pulpino/rtl/components/cluster_clock_gating.sv
+/home/nitintyagi/pulpino/rtl/components/cluster_clock_inverter.sv
+/home/nitintyagi/pulpino/rtl/components/cluster_clock_mux2.sv
+/home/nitintyagi/pulpino/rtl/components/dp_ram.sv
+/home/nitintyagi/pulpino/rtl/components/generic_fifo.sv
+/home/nitintyagi/pulpino/rtl/components/pulp_clock_gating.sv
+/home/nitintyagi/pulpino/rtl/components/pulp_clock_inverter.sv
+/home/nitintyagi/pulpino/rtl/components/pulp_clock_mux2.sv
+/home/nitintyagi/pulpino/rtl/components/rstgen.sv
+/home/nitintyagi/pulpino/rtl/components/sp_ram.sv
+/home/nitintyagi/pulpino/rtl/core2axi_wrap.sv
+/home/nitintyagi/pulpino/rtl/core_region.sv
+/home/nitintyagi/pulpino/rtl/dp_ram_wrap.sv
+/home/nitintyagi/pulpino/rtl/includes/apb_bus.sv
+/home/nitintyagi/pulpino/rtl/includes/apu_defines.sv
+/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv
+/home/nitintyagi/pulpino/rtl/includes/config.sv
+/home/nitintyagi/pulpino/rtl/includes/debug_bus.sv
+/home/nitintyagi/pulpino/rtl/instr_ram_wrap.sv
+/home/nitintyagi/pulpino/rtl/periph_bus_wrap.sv
+/home/nitintyagi/pulpino/rtl/peripherals.sv
+/home/nitintyagi/pulpino/rtl/pulpino_top.sv
+/home/nitintyagi/pulpino/rtl/pulpino_wrap.v
+/home/nitintyagi/pulpino/rtl/ram_mux.sv
+/home/nitintyagi/pulpino/rtl/random_stalls.sv
+/home/nitintyagi/pulpino/rtl/sp_ram_wrap.sv
+/home/nitintyagi/pulpino/rtl/axi2apb_wrap.sv
+/home/nitintyagi/pulpino/rtl/axi_mem_if_SP_wrap.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_biu.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_defines.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_defines.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_module.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axionly_top.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_crc32.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_biu.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_defines.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_module.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lintonly_top.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_biu.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_defines.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_module.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_status_reg.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_defines.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_top.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_top.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adv_dbg_if.sv
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/bytefifo.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncflop.v
+/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncreg.v
+/home/nitintyagi/pulpino/rtl/ips/apb/apb2per/apb2per.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_fll_if/apb_fll_if.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_gpio/apb_gpio.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/apb_i2c.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_bit_ctrl.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_byte_ctrl.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/apb_spi_master.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_clkgen.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_fifo.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_rx.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_tx.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/include/defines_event_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/apb_event_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/generic_service_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/sleep_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node_wrap.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/io_generic_fifo.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_interrupt.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_rx.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_tx.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_pulpino/apb_pulpino.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/apb_timer.sv
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/timer.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_core_package.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_macros.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_config.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_tracer_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_L0_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_basic.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_div.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_apu_disp.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_compressed_decoder.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_cs_registers.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_debug_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_decoder.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_fetch_fifo.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_regs.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_id_stage.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_if_stage.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_int_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_load_store_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_mult.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_L0_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file_latch.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_tracer.sv
+/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_config.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_tracer_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_alu.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_compressed_decoder.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_core.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_cs_registers.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_debug_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_decoder.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_ex_block.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_fetch_fifo.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_id_stage.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_if_stage.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_int_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_load_store_unit.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_fast.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_slow.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_prefetch_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file_ff.sv
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_tracer.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_utils/fpu_ff.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_defs.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/defines_fpu.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fp_fma_wrapper.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpexc.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_add.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_core.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_ftoi.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_itof.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_mult.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_norm.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_private.sv
+/home/nitintyagi/pulpino/rtl/includes/fp_defines.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_shared.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/riscv_fpu.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_defs_div_sqrt_tp.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/control_tp.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/div_sqrt_top_tp.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_norm_div_sqrt.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt_first.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/nrbd_nrsc_tp.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/preprocess.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_defs_fmac.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/CSA.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/LZA.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/adders.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/aligner.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_encoder.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_selector.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fmac.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_norm_fmac.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/pp_generation.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/preprocess_fmac.sv
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/wallace.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB_32.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb32.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_ar_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_aw_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_b_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_r_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_slice.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_w_buffer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_dc_fifo.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/axi_spi_slave.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_axi_plug.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_cmd_parser.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_controller.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_regs.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_rx.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_syncro.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_tx.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/apb_regs_top.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AR_allocator.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AW_allocator.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_ArbitrationTree.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BR_allocator.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BW_allocator.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_DW_allocator.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_FanInPrimitive_Req.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_RR_Flag_Req.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AR.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AW.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BR.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BW.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_DW.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_multiplexer.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap.sv
+/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap_with_slices.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_regs_top.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_request_block.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_response_block.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/defines.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/axi_spi_master.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/core2axi/core2axi.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP_hybr.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_MP_Hybrid_multi_bank.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_SP.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_multi_bank.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_read_only_ctrl.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_write_only_ctrl.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_DP.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_read_only.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_write_only.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_master.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_slave.sv
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_data_buffer.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_full_detector.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_synchronizer.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_din.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_dout.v
+103
+which_declare=declare -f
+__MODULES_SHARE_MANPATH=:2
+__MODULES_LMCONFLICT=mpi/mpich-x86_64&mpi
+_LMFILES_=/usr/share/modulefiles/mpi/mpich-x86_64
+ZOIX_HOME=/home/synopsys/tools/zoix/W-2024.09
+XRDP_SOCKET_PATH=/run/xrdp/1040
+XRDP_SESSION=38910
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_18
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_18
+XMODIFIERS=@im=ibus
+XDG_SESSION_TYPE=x11
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1040
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/nitintyagi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=6402
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/synopsys/tools/verdi/W-2024.09
+VENDOR=unknown
+VC_STATIC_HOME=/home/synopsys/tools/vc_static/W-2024.09
+VCS_PYTHON3=/home/synopsys/tools/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=sim.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/home/synopsys/tools/vcs/W-2024.09
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UVM_HOME=/home/synopsys/tools/vcs/W-2024.09/etc/uvm-1.2
+UNAME=/bin/uname
+TXS_HOME=/home/synopsys/tools/txs/W-2024.09-SP2
+TOOL_HOME=/home/synopsys/tools/vcs/W-2024.09/linux64
+S_COLORS=auto
+SYSTEMD_EXEC_PID=39434
+SYNOPSYS_LC_ROOT=/home/synopsys/tools/lc/W-2024.09-SP2
+SYNOPSYS=/home/synopsys/tools/syn/W-2024.09-SP1
+SSH_AUTH_SOCK=/run/user/1040/keyring/ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=39315
+SPYGLASS_HOME=/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_VHDL_WRAPPER_KDB=1
+SNPS_VCS_PYTHON3=/home/synopsys/tools/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/home/synopsys/tools/vcs/W-2024.09/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/39405,unix/unix:/tmp/.ICE-unix/39405
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+PULP_PATH=/home/nitintyagi/pulpino
+PRIMEWAVE_HOME=/home/synopsys/tools/primewave/W-2024.09-SP1
+PRIMETIME=/home/synopsys/tools/prime/W-2024.09-SP1
+PKG_CONFIG_PATH=/usr/lib64/mpich/lib/pkgconfig
+OVA_UUM=0
+OSTYPE=linux
+NOVAS_FSDB_ENV_MAX_GLITCH_NUM=0
+NOVAS_FSDB_ENV_DUMP_SEQ_NUM=on
+MPI_SYSCONFIG=/etc/mpich-x86_64
+MPI_SUFFIX=_mpich
+MPI_PYTHON_SITEARCH=%{python2_sitearch}/mpich
+MPI_PYTHON3_SITEARCH=/usr/lib64/python3.9/site-packages/mpich
+MPI_PYTHON2_SITEARCH=%{python2_sitearch}/mpich
+MPI_MAN=/usr/share/man/mpich-x86_64
+MPI_LIB=/usr/lib64/mpich/lib
+MPI_INCLUDE=/usr/include/mpich-x86_64
+MPI_HOME=/usr/lib64/mpich
+MPI_FORTRAN_MOD_DIR=/usr/lib64/gfortran/modules/mpich
+MPI_COMPILER=mpich-x86_64
+MPI_BIN=/usr/lib64/mpich/bin
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+LOADEDMODULES=mpi/mpich-x86_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+ICV_HOME_DIR=/home/synopsys/tools/icvalidator/W-2024.09-SP1
+HSPICE_HOME=/home/synopsys/tools/hspice/W-2024.09-SP1/hspice
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GUESTFISH_RESTORE=\e[0m
+GUESTFISH_PS1=\[\e[1;32m\]><fs>\[\e[0;31m\] 
+GUESTFISH_OUTPUT=\e[0m
+GUESTFISH_INIT=\e[1;34m
+GROUP=nitintyagi
+GNOME_TERMINAL_SERVICE=:1.88
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/38a6bce1_8f26_4b12_970f_c53e9e770d19
+FLEXLM_DIAGNOSTICS=3
+DOTNET_ROOT=/usr/lib64/dotnet
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/home/nitintyagi/.cache/dotnet_bundle_extract
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1040/bus
+CUSTOMCOMPILER_HOME=/home/synopsys/tools/customcompiler/W-2024.09-SP1
+COLORTERM=truecolor
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ _mlstatus=$?;_ return $_mlstatus_}
+0
+0
+255
+1737712163 /home/nitintyagi/pulpino/ips/axi/axi_node/defines.v
+1737712176 /home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_rem.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_div.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_urem.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_udiv.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/include/riscv_config.sv
+1737712171 /home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv
+1737712152 /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv
+1737712155 /home/nitintyagi/pulpino/ips/apb/apb_i2c/i2c_master_defines.sv
+1737712169 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_tap_defines.v
+1737712169 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_or1k_defines.v
+1737712169 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_lint_defines.v
+1737712169 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_axi_defines.v
+1737712169 /home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_dout.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_din.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_synchronizer.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_full_detector.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_data_buffer.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_slave.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_master.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_write_only.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_read_only.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_DP.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_write_only_ctrl.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_read_only_ctrl.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_multi_bank.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_SP.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_MP_Hybrid_multi_bank.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP_hybr.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/core2axi/core2axi.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/axi_spi_master.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_response_block.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_request_block.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_regs_top.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap_with_slices.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/axi_bus.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_multiplexer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_DW.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BW.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BR.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AW.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AR.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_RR_Flag_Req.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_FanInPrimitive_Req.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_DW_allocator.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BW_allocator.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BR_allocator.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_ArbitrationTree.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AW_allocator.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AR_allocator.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_node/apb_regs_top.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_tx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_syncro.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_rx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_regs.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_cmd_parser.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_axi_plug.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/axi_spi_slave.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_dc_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_w_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_slice.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_r_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_b_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_aw_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_ar_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb32.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB_32.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/wallace.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/preprocess_fmac.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/pp_generation.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_norm_fmac.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fmac.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_selector.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_encoder.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/aligner.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/adders.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/LZA.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/CSA.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_defs_fmac.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/preprocess.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/nrbd_nrsc_tp.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt_first.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_norm_div_sqrt.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/div_sqrt_top_tp.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/control_tp.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_defs_div_sqrt_tp.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/riscv_fpu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_shared.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/fp_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_private.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_norm.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_mult.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_itof.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_ftoi.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_core.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_add.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpexc.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fp_fma_wrapper.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/defines_fpu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_defs.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_utils/fpu_ff.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_tracer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file_ff.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_prefetch_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_slow.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_fast.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_load_store_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_int_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_if_stage.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_id_stage.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_fetch_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_ex_block.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_decoder.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_debug_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_cs_registers.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_core.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_compressed_decoder.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_alu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_tracer_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_config.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_tracer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file_latch.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_L0_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_mult.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_load_store_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_int_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_if_stage.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_id_stage.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_regs.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_fetch_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_decoder.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_debug_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_cs_registers.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_compressed_decoder.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_apu_disp.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_div.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_basic.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/riscv_L0_buffer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_tracer_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_config.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_macros.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_core_package.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/timer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/apb_timer.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_pulpino/apb_pulpino.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_tx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_rx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_interrupt.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/io_generic_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/sleep_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/generic_service_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/apb_event_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/include/defines_event_unit.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_tx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_rx.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_controller.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_clkgen.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/apb_spi_master.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_byte_ctrl.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_bit_ctrl.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/apb_i2c.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_gpio/apb_gpio.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb_fll_if/apb_fll_if.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/apb/apb2per/apb2per.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncreg.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncflop.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/bytefifo.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adv_dbg_if.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_top.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_top.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_status_reg.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_module.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_biu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lintonly_top.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_module.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_biu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_crc32.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axionly_top.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_module.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_defines.v
+1737712925 /home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_biu.sv
+1737712925 /home/nitintyagi/pulpino/rtl/axi_mem_if_SP_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/axi2apb_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/sp_ram_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/random_stalls.sv
+1737712925 /home/nitintyagi/pulpino/rtl/ram_mux.sv
+1737975506 /home/nitintyagi/pulpino/rtl/pulpino_wrap.v
+1737712925 /home/nitintyagi/pulpino/rtl/pulpino_top.sv
+1737973942 /home/nitintyagi/pulpino/rtl/peripherals.sv
+1737712925 /home/nitintyagi/pulpino/rtl/periph_bus_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/instr_ram_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/debug_bus.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/config.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/axi_bus.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/apu_defines.sv
+1737712925 /home/nitintyagi/pulpino/rtl/includes/apb_bus.sv
+1737712925 /home/nitintyagi/pulpino/rtl/dp_ram_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/core_region.sv
+1737712925 /home/nitintyagi/pulpino/rtl/core2axi_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/sp_ram.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/rstgen.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/pulp_clock_mux2.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/pulp_clock_inverter.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/pulp_clock_gating.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/generic_fifo.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/dp_ram.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/cluster_clock_mux2.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/cluster_clock_inverter.sv
+1737712925 /home/nitintyagi/pulpino/rtl/components/cluster_clock_gating.sv
+1737712925 /home/nitintyagi/pulpino/rtl/clk_rst_gen.sv
+1737712925 /home/nitintyagi/pulpino/rtl/boot_rom_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/boot_code.sv
+1737712925 /home/nitintyagi/pulpino/rtl/axi_spi_slave_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/axi_slice_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/axi_node_intf_wrap.sv
+1737712925 /home/nitintyagi/pulpino/rtl/apb_mock_uart.sv
+1737975613 run_all.f
+1723953532 /home/synopsys/tools/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+1725332768 /home/synopsys/tools/vcs/W-2024.09/linux64/lib/vcsdp_lite.tab
+4
+1725336088 /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libvirsim.so
+1725334290 /home/synopsys/tools/vcs/W-2024.09/linux64/lib/liberrorinf.so
+1725334282 /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so
+1725334269 /home/synopsys/tools/vcs/W-2024.09/linux64/lib/libvfs.so
+1738151623 simv.daidir
+-1 partitionlib

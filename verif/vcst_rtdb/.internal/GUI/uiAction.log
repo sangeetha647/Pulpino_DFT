@@ -1,0 +1,10 @@
+action aaMonetActionReplayMode -trigger
+
+action aaMonetViewDone:0 -reset
+action aaMonetView:0 -bRestoreFilter {1} -dock {0} -showFltCfg {0} -tag {all} -title {___SNPS_NONE} -trigger
+waitfor aaMonetViewDone:0
+
+action aaMonetCheckLocator:0 -reset
+action aaMonetCheckLocator:0 -trigger
+waitfor aaMonetCheckLocator:0
+

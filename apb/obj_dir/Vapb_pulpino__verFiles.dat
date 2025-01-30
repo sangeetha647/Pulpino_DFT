@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-cc apb_pulpino.sv"
+S   7892640    29901  1721882708   475583668  1598506306           0 "/usr/bin/verilator_bin"
+S     10331    55024  1723022219   840864336  1723022219   840864336 "apb_pulpino.sv"
+T     42409    55088  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino.cpp"
+T      4009    55086  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino.h"
+T      1457    55090  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino.mk"
+T     35525    55087  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino__Slow.cpp"
+T       569    55084  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino__Syms.cpp"
+T       823    55085  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino__Syms.h"
+T       288    55091  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino__ver.d"
+T         0        0  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino__verFiles.dat"
+T      1570    55089  1723022713   560857277  1723022713   560857277 "obj_dir/Vapb_pulpino_classes.mk"

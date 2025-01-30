@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-cc apb_node.sv"
+S   7892640    29901  1721882708   475583668  1598506306           0 "/usr/bin/verilator_bin"
+S      3396    55022  1723022219   840864336  1723022219   840864336 "apb_node.sv"
+T     15035    55036  1723022359   350862341  1723022359   350862341 "obj_dir/Vapb_node.cpp"
+T      2995    55034  1723022359   340862341  1723022359   340862341 "obj_dir/Vapb_node.h"
+T      1442    55038  1723022359   350862341  1723022359   350862341 "obj_dir/Vapb_node.mk"
+T      2299    55035  1723022359   340862341  1723022359   340862341 "obj_dir/Vapb_node__Slow.cpp"
+T       554    55016  1723022359   340862341  1723022359   340862341 "obj_dir/Vapb_node__Syms.cpp"
+T       802    55033  1723022359   340862341  1723022359   340862341 "obj_dir/Vapb_node__Syms.h"
+T       261    55039  1723022359   350862341  1723022359   350862341 "obj_dir/Vapb_node__ver.d"
+T         0        0  1723022359   350862341  1723022359   350862341 "obj_dir/Vapb_node__verFiles.dat"
+T      1558    55037  1723022359   350862341  1723022359   350862341 "obj_dir/Vapb_node_classes.mk"

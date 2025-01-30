@@ -1,0 +1,32 @@
+Invoking simulator...
+
+simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE +fsdb+gate=off -ucli2Proc -ucli
+debImport "-i" "-simflow" "-dbdir" "simv.daidir"
+*Verdi* Loading libsscore_vcs202409.so
+
+FSDB Dumper for VCS, Release Verdi_W-2024.09, Linux x86_64/64bit, 08/17/2024
+(C) 1996 - 2024 by Synopsys, Inc.
+
+*Verdi* : Create FSDB file '/home/nitintyagi/pulpino/verif/inter.fsdb'
+*Verdi* : Enable dumping glitch values.
+*Verdi* : Enable dumping value change sequence.
+*Verdi* : Flush all FSDB Files at 0 ps.
+
+*Verdi* : Enable RPC Server(128273)
+
+srcTBInvokeSim
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09_Full64; Runtime version W-2024.09_Full64;  Jan 28 12:56 2025
+[SCL] SCL trace is enabled.
+get display error
+Checkout succeeded: VCS-BASE-RUNTIME/5F2A4062751FA1D1999D
+	License file: 27020@vlsi
+	License Server: 27020@vlsi
+[SCL] 01/28/2025 12:56:22 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 01/28/2025 12:56:22 PID:128273 Client:vlsi Server:27020@vlsi Checkout succeeded VCS-BASE-RUNTIME 2024.09 from VCS-Base-Runtime-Pkg
+Warning : License for product VCS-BASE-RUNTIME will expire within 4 days, on: 31-jan-2025.
+If you would like to temporarily disable this message, set 
+ the VCS_LIC_EXPIRE_WARNING environment variable to the number of days
+before expiration that you want this message to start (the minimum is 0).
+Error: Message for 'CLE-10' has occurred (ERR-3)

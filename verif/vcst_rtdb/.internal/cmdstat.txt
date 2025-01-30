@@ -1,0 +1,26 @@
+
+
+### configure_tag	Num_calls 1	Total_time 0.020376	Total_CpuTime 0.02	Total malloc-M 5
+1	File:/home/synopsys/tools/vc_static/W-2024.09/auxx/monet/tcl/merge_commands.tcl::0	Time:0.020376	CpuTime:0.02	 Malloc-MB:5
+
+### create_proc_command	Num_calls 241	Total_time 0.008492	Total_CpuTime 0	Total malloc-M 1
+
+### fv_update_command_consistency_flow	Num_calls 1	Total_time 0.000426	Total_CpuTime 0	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 4e-06	Total_CpuTime 0	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 4e-06	Total_CpuTime 0	Total malloc-M 0
+
+### restore_session	Num_calls 1	Total_time 5.8e-05	Total_CpuTime 0	Total malloc-M 0
+
+### start_gui	Num_calls 1	Total_time 6.6e-05	Total_CpuTime 0	Total malloc-M 0
+
+ ****************************Shell commands Recording************************
+exit
+
+
+ ****************************ThreadTask Recording************************
+Thread: CommonMgr Time: 0(s) Mem: 0(KB) MaxSize: 0
+
+
+ ****************************ProcessTask Recording************************

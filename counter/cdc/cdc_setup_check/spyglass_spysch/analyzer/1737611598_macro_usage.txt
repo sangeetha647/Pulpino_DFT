@@ -1,0 +1,923 @@
+begin 0
+end
+begin 1
+end
+begin 2
+    begin 3
+    end
+    begin 4
+    end
+    2 86 20 "64"
+    2 157 26 "1"
+    2 212 26 "1"
+    2 235 37 "4'h9"
+    2 235 38 "4'hd"
+    2 237 37 "4'h9"
+    2 239 29 "4'h1"
+    2 240 30 "4'h2"
+    2 241 31 "4'h3"
+    2 242 32 "4'h4"
+    2 244 33 "4'h5"
+    2 245 34 "4'h6"
+    2 246 35 "4'h7"
+    2 247 36 "4'h8"
+    2 254 29 "4'h1"
+    2 261 30 "4'h2"
+    2 268 31 "4'h3"
+    2 275 32 "4'h4"
+    2 282 33 "4'h5"
+    2 289 34 "4'h6"
+    2 296 35 "4'h7"
+    2 303 36 "4'h8"
+    2 340 28 "1'b0"
+    2 363 28 "1'b0"
+end
+begin 5
+end
+begin 6
+end
+begin 7
+    7 271 51 "1'h0"
+    7 280 51 "1'h0"
+    7 283 52 "1'h1"
+    7 285 51 "1'h0"
+    7 287 52 "1'h1"
+    7 290 51 "1'h0"
+    7 292 52 "1'h1"
+    7 305 51 "1'h0"
+    7 322 52 "1'h1"
+end
+begin 8
+end
+begin 9
+    begin 10
+    end
+    begin 11
+    end
+    9 195 71 "4'h3"
+    9 195 72 "4'h7"
+    9 196 73 "4'h9"
+    9 196 74 "4'hd"
+    9 197 73 "4'h9"
+    9 237 70 "3'b000"
+    9 253 70 "3'b000"
+end
+begin 12
+    begin 13
+    end
+end
+begin 14
+end
+begin 15
+    begin 16
+    end
+    15 227 96 "4'hF"
+    15 237 96 "4'hF"
+    15 239 96 "4'hF"
+    15 240 97 "4'hC"
+    15 242 97 "4'hC"
+    15 244 98 "4'h7"
+    15 245 97 "4'hC"
+    15 247 98 "4'h7"
+    15 249 105 "4'h4"
+    15 250 99 "4'h6"
+    15 252 99 "4'h6"
+    15 254 101 "4'h1"
+    15 255 100 "4'h2"
+    15 257 100 "4'h2"
+    15 259 101 "4'h1"
+    15 260 100 "4'h2"
+    15 262 101 "4'h1"
+    15 264 104 "4'h5"
+    15 265 102 "4'h3"
+    15 267 102 "4'h3"
+    15 269 103 "4'h0"
+    15 270 102 "4'h3"
+    15 272 103 "4'h0"
+    15 274 104 "4'h5"
+    15 275 100 "4'h2"
+    15 277 104 "4'h5"
+    15 279 98 "4'h7"
+    15 280 97 "4'hC"
+    15 282 105 "4'h4"
+    15 284 96 "4'hF"
+    15 285 106 "4'hE"
+    15 287 106 "4'hE"
+    15 289 108 "4'h9"
+    15 290 107 "4'hA"
+    15 292 107 "4'hA"
+    15 294 108 "4'h9"
+    15 295 107 "4'hA"
+    15 297 108 "4'h9"
+    15 299 111 "4'hD"
+    15 300 109 "4'hB"
+    15 302 109 "4'hB"
+    15 304 110 "4'h8"
+    15 305 109 "4'hB"
+    15 307 110 "4'h8"
+    15 309 111 "4'hD"
+    15 310 107 "4'hA"
+    15 312 111 "4'hD"
+    15 314 98 "4'h7"
+    15 315 97 "4'hC"
+    15 317 96 "4'hF"
+    15 344 96 "4'hF"
+    15 345 97 "4'hC"
+    15 346 98 "4'h7"
+    15 347 99 "4'h6"
+    15 348 100 "4'h2"
+    15 349 101 "4'h1"
+    15 350 102 "4'h3"
+    15 351 103 "4'h0"
+    15 352 104 "4'h5"
+    15 353 105 "4'h4"
+    15 354 106 "4'hE"
+    15 355 107 "4'hA"
+    15 356 108 "4'h9"
+    15 357 109 "4'hB"
+    15 358 110 "4'h8"
+    15 359 111 "4'hD"
+    15 377 89 "4"
+    15 378 89 "4"
+    15 384 89 "4"
+    15 384 89 "4"
+    15 386 89 "4"
+    15 386 89 "4"
+    15 390 89 "4"
+    15 390 89 "4"
+    15 400 92 "4'b0010"
+    15 402 92 "4'b0010"
+    15 426 88 "32'h249511c3"
+    15 428 88 "32'h249511c3"
+    15 430 88 "32'h249511c3"
+    15 489 90 "4'b0000"
+    15 490 91 "4'b0001"
+    15 491 92 "4'b0010"
+    15 492 94 "4'b1001"
+    15 493 93 "4'b1000"
+    15 494 95 "4'b1111"
+    15 516 92 "4'b0010"
+    15 517 93 "4'b1000"
+    15 518 91 "4'b0001"
+    15 519 90 "4'b0000"
+    15 520 94 "4'b1001"
+end
+begin 17
+    begin 18
+    end
+    17 142 118 "64"
+    17 158 118 "64"
+    17 159 118 "64"
+    17 159 118 "64"
+    17 192 118 "64"
+end
+begin 19
+end
+begin 20
+end
+begin 21
+    begin 22
+    end
+        22 16 0 "        22 26 0 ""
+end
+begin 23
+    begin 24
+    end
+    23 55 151 "2'd2"
+    23 55 156 "'d2"
+    23 55 156 "'d2"
+end
+begin 25
+end
+begin 26
+    26 155 175 "5'b01001"
+    26 161 189 "5'b10111"
+    26 279 166 "5'b00000"
+    26 284 180 "5'b01110"
+    26 289 169 "5'b00011"
+    26 294 183 "5'b10001"
+    26 299 170 "5'b00100"
+    26 306 184 "5'b10010"
+    26 313 171 "5'b00101"
+    26 320 185 "5'b10011"
+    26 327 172 "5'b00110"
+    26 332 186 "5'b10100"
+    26 337 173 "5'b00111"
+    26 357 174 "5'b01000"
+    26 377 187 "5'b10101"
+    26 397 188 "5'b10110"
+    26 417 167 "5'b00001"
+    26 422 181 "5'b01111"
+    26 427 176 "5'b01010"
+    26 439 177 "5'b01011"
+    26 451 178 "5'b01100"
+    26 463 179 "5'b01101"
+    26 475 190 "5'b11000"
+    26 487 191 "5'b11001"
+    26 499 192 "5'b11010"
+    26 511 193 "5'b11011"
+    26 532 166 "5'b00000"
+    26 542 180 "5'b01110"
+    26 552 168 "5'b00010"
+    26 562 182 "5'b10000"
+    26 572 169 "5'b00011"
+    26 582 183 "5'b10001"
+    26 592 172 "5'b00110"
+    26 602 186 "5'b10100"
+    26 612 173 "5'b00111"
+    26 622 174 "5'b01000"
+    26 632 187 "5'b10101"
+    26 642 188 "5'b10110"
+    26 652 175 "5'b01001"
+    26 662 189 "5'b10111"
+    26 672 167 "5'b00001"
+    26 682 181 "5'b01111"
+    26 692 176 "5'b01010"
+    26 702 177 "5'b01011"
+    26 712 178 "5'b01100"
+    26 722 179 "5'b01101"
+    26 732 190 "5'b11000"
+    26 742 191 "5'b11001"
+    26 752 192 "5'b11010"
+    26 762 193 "5'b11011"
+end
+begin 27
+    begin 28
+    end
+    27 88 199 "4'b000"
+    27 90 200 "4'b001"
+    27 92 203 "4'b100"
+    27 94 204 "4'b101"
+    27 114 199 "4'b000"
+    27 116 200 "4'b001"
+    27 118 201 "4'b010"
+    27 120 202 "4'b011"
+    27 122 203 "4'b100"
+    27 124 204 "4'b101"
+    27 207 202 ""
+end
+begin 29
+end
+begin 30
+end
+begin 31
+end
+begin 32
+    32 91 205 "4'b0000"
+    32 94 206 "4'b0001"
+    32 97 207 "4'b0010"
+    32 100 210 "4'b1000"
+    32 107 211 "4'b1001"
+    32 114 212 "4'b1010"
+    32 121 213 "4'b1011"
+    32 128 214 "4'b1100"
+    32 135 215 "4'b1101"
+    32 142 216 "4'b1110"
+    32 149 217 "4'b1111"
+    32 157 209 "4'b0101"
+    32 176 205 "4'b0000"
+    32 179 207 "4'b0010"
+    32 182 206 "4'b0001"
+    32 185 210 "4'b1000"
+    32 188 211 "4'b1001"
+    32 191 212 "4'b1010"
+    32 194 213 "4'b1011"
+    32 197 214 "4'b1100"
+    32 200 215 "4'b1101"
+    32 203 216 "4'b1110"
+    32 206 217 "4'b1111"
+    32 209 208 "4'b0100"
+    32 210 223 "1'b0"
+    32 210 222 "1'b0"
+    32 210 221 "5'b00000"
+    32 210 220 "8'b00000100"
+    32 210 219 "8'b00000100"
+    32 210 218 "5'b00010"
+    32 212 209 "4'b0101"
+    32 275 209 ""
+end
+begin 33
+    33 49 224 "((BUFFER_DEPTH) < ( 1 ) ? 0 : (BUFFER_DEPTH) < ( 2 ) ? 1 : (BUFFER_DEPTH) < ( 4 ) ? 2 : (BUFFER_DEPTH) < ( 8 ) ? 3 : (BUFFER_DEPTH) < ( 16 )  ? 4 : (BUFFER_DEPTH) < ( 32 )  ? 5 : (BUFFER_DEPTH) < ( 64 )  ? 6 : (BUFFER_DEPTH) < ( 128 ) ? 7 : (BUFFER_DEPTH) < ( 256 ) ? 8 : (BUFFER_DEPTH) < ( 512 ) ? 9 : (BUFFER_DEPTH) < ( 1024 ) ? 10 : (BUFFER_DEPTH) < ( 2048 ) ? 11 : (BUFFER_DEPTH) < ( 4096 ) ? 12 : (BUFFER_DEPTH) < ( 8192 ) ? 13 : (BUFFER_DEPTH) < ( 16384 ) ? 14 : (BUFFER_DEPTH) < ( 32768 ) ? 15 : (BUFFER_DEPTH) < ( 65536 ) ? 16 : (BUFFER_DEPTH) < ( 131072 ) ? 17 : (BUFFER_DEPTH) < ( 262144 ) ? 18 : (BUFFER_DEPTH) < ( 524288 ) ? 19 : (BUFFER_DEPTH) < ( 1048576 ) ? 20 : (BUFFER_DEPTH) < ( 1048576 * 2 ) ? 21 : (BUFFER_DEPTH) < ( 1048576 * 4 ) ? 22 : (BUFFER_DEPTH) < ( 1048576 * 8 ) ? 23 : (BUFFER_DEPTH) < ( 1048576 * 16 ) ? 24 : 25)"
+end
+begin 34
+    begin 35
+    end
+    34 39 230 "'d2"
+    34 39 230 "'d2"
+end
+begin 36
+end
+begin 37
+end
+begin 38
+end
+begin 39
+end
+begin 40
+    40 346 251 "2'b00"
+    40 354 251 "2'b00"
+end
+begin 41
+    begin 42
+        begin 43
+        end
+            43 11 125 ""
+    end
+end
+begin 44
+end
+begin 45
+end
+begin 46
+end
+begin 47
+end
+begin 48
+end
+begin 49
+end
+begin 50
+end
+begin 51
+end
+begin 52
+end
+begin 53
+end
+begin 54
+end
+begin 55
+end
+begin 56
+end
+begin 57
+    56 11 255 ""
+end
+begin 58
+end
+begin 59
+end
+begin 60
+end
+begin 61
+    begin 62
+    end
+        62 11 255 ""
+end
+begin 63
+end
+begin 64
+    begin 65
+    end
+        65 11 255 ""
+end
+begin 66
+end
+begin 67
+end
+begin 68
+end
+begin 69
+    69 126 257 "2'b00"
+    69 187 257 "2'b00"
+    69 237 257 "2'b00"
+    69 291 257 "2'b00"
+    69 364 257 "2'b00"
+end
+begin 70
+end
+begin 71
+end
+begin 72
+end
+begin 73
+end
+begin 74
+end
+begin 75
+end
+begin 76
+end
+begin 77
+end
+begin 78
+end
+begin 79
+    79 137 261 "2'b00"
+    79 234 261 "2'b00"
+end
+begin 80
+end
+begin 81
+    begin 82
+    end
+        82 11 125 ""
+    81 16 128 "12"
+end
+begin 83
+    83 27 0 ""
+end
+begin 84
+    84 52 127 ""
+end
+begin 85
+end
+begin 86
+end
+begin 87
+end
+begin 88
+end
+begin 89
+    88 11 125 ""
+    89 250 0 ""
+    89 270 0 ""
+end
+begin 90
+    begin 91
+    end
+        91 11 255 ""
+end
+begin 92
+    begin 93
+    end
+    begin 94
+    end
+        93 11 255 "        94 11 125 ""
+end
+begin 95
+end
+begin 96
+end
+begin 97
+end
+begin 98
+end
+begin 99
+end
+begin 100
+end
+begin 101
+    begin 102
+    end
+        102 11 125 ""
+end
+begin 103
+end
+begin 104
+end
+begin 105
+    begin 106
+    end
+        106 11 125 ""
+end
+begin 107
+    107 70 0 ""
+end
+begin 108
+    108 140 0 ""
+end
+begin 109
+end
+begin 110
+    begin 111
+    end
+    110 35 289 "'d3"
+    110 41 290 "'d2"
+    110 46 290 "'d2"
+    110 61 292 "2'b01"
+    110 68 292 "2'b01"
+    110 85 293 "2'b10"
+    110 86 294 "2'b11"
+    110 89 291 "2'b00"
+    110 89 292 "2'b01"
+    110 92 293 "2'b10"
+    110 98 294 "2'b11"
+    110 108 291 "2'b00"
+    110 109 291 "2'b00"
+    110 112 292 "2'b01"
+    110 115 293 "2'b10"
+    110 116 293 "2'b10"
+    110 118 294 "2'b11"
+    110 119 294 "2'b11"
+    110 123 292 "2'b01"
+    110 136 291 "2'b00"
+    110 137 291 "2'b00"
+    110 139 292 "2'b01"
+    110 140 292 "2'b01"
+end
+begin 112
+    begin 113
+    end
+    112 317 302 "4'b0010"
+    112 381 301 "4'b0001"
+    112 382 302 "4'b0010"
+    112 383 303 "4'b0100"
+    112 384 304 "4'b1000"
+end
+begin 114
+    begin 115
+    end
+    114 194 305 "4'b0000"
+    114 204 305 "4'b0000"
+    114 228 306 "4'b0001"
+    114 233 309 "4'b1000"
+    114 238 308 "4'b0100"
+    114 243 307 "4'b0010"
+    114 255 309 "4'b1000"
+    114 260 308 "4'b0100"
+    114 271 309 "4'b1000"
+    114 276 308 "4'b0100"
+    114 286 308 "4'b0100"
+    114 291 309 "4'b1000"
+    114 304 307 "4'b0010"
+    114 309 305 "4'b0000"
+    114 327 305 "4'b0000"
+end
+begin 116
+end
+begin 117
+    begin 118
+    end
+        118 11 125 ""
+    117 69 128 "12"
+end
+begin 119
+end
+begin 120
+end
+begin 121
+    begin 122
+    end
+        122 12 124 ""
+    121 36 130 "9"
+    121 55 149 "assign s_slave.paddr    = apb_slave.paddr;       assign s_slave.pwdata   = apb_slave.pwdata;      assign s_slave.pwrite   = apb_slave.pwrite;      assign s_slave.psel     = apb_slave.psel;        assign s_slave.penable  = apb_slave.penable;     assign apb_slave.prdata   = s_slave.prdata;      assign apb_slave.pready   = s_slave.pready;      assign apb_slave.pslverr  = s_slave.pslverr;"
+    21 66 149 "" 
+    121 57 150 "assign uart_master.paddr    = s_masters[0 ].paddr;       assign uart_master.pwdata   = s_masters[0 ].pwdata;      assign uart_master.pwrite   = s_masters[0 ].pwrite;      assign uart_master.psel     = s_masters[0 ].psel;        assign uart_master.penable  = s_masters[0 ].penable;     assign s_masters[0 ].prdata   = uart_master.prdata;      assign s_masters[0 ].pready   = uart_master.pready;      assign s_masters[0 ].pslverr  = uart_master.pslverr;"
+    121 58 131 "32'h1A10_0000"
+    121 59 132 "32'h1A10_0FFF"
+    21 66 149 "" 
+    121 61 150 "assign gpio_master.paddr    = s_masters[1 ].paddr;       assign gpio_master.pwdata   = s_masters[1 ].pwdata;      assign gpio_master.pwrite   = s_masters[1 ].pwrite;      assign gpio_master.psel     = s_masters[1 ].psel;        assign gpio_master.penable  = s_masters[1 ].penable;     assign s_masters[1 ].prdata   = gpio_master.prdata;      assign s_masters[1 ].pready   = gpio_master.pready;      assign s_masters[1 ].pslverr  = gpio_master.pslverr;"
+    121 62 133 "32'h1A10_1000"
+    121 63 134 "32'h1A10_1FFF"
+    21 66 149 "" 
+    121 65 150 "assign spi_master.paddr    = s_masters[2 ].paddr;       assign spi_master.pwdata   = s_masters[2 ].pwdata;      assign spi_master.pwrite   = s_masters[2 ].pwrite;      assign spi_master.psel     = s_masters[2 ].psel;        assign spi_master.penable  = s_masters[2 ].penable;     assign s_masters[2 ].prdata   = spi_master.prdata;      assign s_masters[2 ].pready   = spi_master.pready;      assign s_masters[2 ].pslverr  = spi_master.pslverr;"
+    121 66 135 "32'h1A10_2000"
+    121 67 136 "32'h1A10_2FFF"
+    21 66 149 "" 
+    121 69 150 "assign timer_master.paddr    = s_masters[3 ].paddr;       assign timer_master.pwdata   = s_masters[3 ].pwdata;      assign timer_master.pwrite   = s_masters[3 ].pwrite;      assign timer_master.psel     = s_masters[3 ].psel;        assign timer_master.penable  = s_masters[3 ].penable;     assign s_masters[3 ].prdata   = timer_master.prdata;      assign s_masters[3 ].pready   = timer_master.pready;      assign s_masters[3 ].pslverr  = timer_master.pslverr;"
+    121 70 137 "32'h1A10_3000"
+    121 71 138 "32'h1A10_3FFF"
+    21 66 149 "" 
+    121 73 150 "assign event_unit_master.paddr    = s_masters[4 ].paddr;       assign event_unit_master.pwdata   = s_masters[4 ].pwdata;      assign event_unit_master.pwrite   = s_masters[4 ].pwrite;      assign event_unit_master.psel     = s_masters[4 ].psel;        assign event_unit_master.penable  = s_masters[4 ].penable;     assign s_masters[4 ].prdata   = event_unit_master.prdata;      assign s_masters[4 ].pready   = event_unit_master.pready;      assign s_masters[4 ].pslverr  = event_unit_master.pslverr;"
+    121 74 139 "32'h1A10_4000"
+    121 75 140 "32'h1A10_4FFF"
+    21 66 149 "" 
+    121 77 150 "assign i2c_master.paddr    = s_masters[5 ].paddr;       assign i2c_master.pwdata   = s_masters[5 ].pwdata;      assign i2c_master.pwrite   = s_masters[5 ].pwrite;      assign i2c_master.psel     = s_masters[5 ].psel;        assign i2c_master.penable  = s_masters[5 ].penable;     assign s_masters[5 ].prdata   = i2c_master.prdata;      assign s_masters[5 ].pready   = i2c_master.pready;      assign s_masters[5 ].pslverr  = i2c_master.pslverr;"
+    121 78 141 "32'h1A10_5000"
+    121 79 142 "32'h1A10_5FFF"
+    21 66 149 "" 
+    121 81 150 "assign fll_master.paddr    = s_masters[6 ].paddr;       assign fll_master.pwdata   = s_masters[6 ].pwdata;      assign fll_master.pwrite   = s_masters[6 ].pwrite;      assign fll_master.psel     = s_masters[6 ].psel;        assign fll_master.penable  = s_masters[6 ].penable;     assign s_masters[6 ].prdata   = fll_master.prdata;      assign s_masters[6 ].pready   = fll_master.pready;      assign s_masters[6 ].pslverr  = fll_master.pslverr;"
+    121 82 143 "32'h1A10_6000"
+    121 83 144 "32'h1A10_6FFF"
+    21 66 149 "" 
+    121 85 150 "assign soc_ctrl_master.paddr    = s_masters[7 ].paddr;       assign soc_ctrl_master.pwdata   = s_masters[7 ].pwdata;      assign soc_ctrl_master.pwrite   = s_masters[7 ].pwrite;      assign soc_ctrl_master.psel     = s_masters[7 ].psel;        assign soc_ctrl_master.penable  = s_masters[7 ].penable;     assign s_masters[7 ].prdata   = soc_ctrl_master.prdata;      assign s_masters[7 ].pready   = soc_ctrl_master.pready;      assign s_masters[7 ].pslverr  = soc_ctrl_master.pslverr;"
+    121 86 145 "32'h1A10_7000"
+    121 87 146 "32'h1A10_7FFF"
+    21 66 149 "" 
+    121 89 150 "assign debug_master.paddr    = s_masters[8 ].paddr;       assign debug_master.pwdata   = s_masters[8 ].pwdata;      assign debug_master.pwrite   = s_masters[8 ].pwrite;      assign debug_master.psel     = s_masters[8 ].psel;        assign debug_master.penable  = s_masters[8 ].penable;     assign s_masters[8 ].prdata   = debug_master.prdata;      assign s_masters[8 ].pready   = debug_master.pready;      assign s_masters[8 ].pslverr  = debug_master.pslverr;"
+    121 90 147 "32'h1A11_0000"
+    121 91 148 "32'h1A11_7FFF"
+end
+begin 123
+    begin 124
+    end
+    begin 125
+    end
+    begin 126
+    end
+    begin 127
+    end
+        124 11 255 "        125 12 124 "        126 11 269 "        127 11 125 ""
+end
+begin 128
+end
+begin 129
+end
+begin 130
+end
+begin 131
+    begin 132
+    end
+    begin 133
+    end
+        132 11 255 "        133 11 269 ""
+    131 117 315 "32"
+    131 118 316 "32"
+    131 119 318 "4"
+    131 120 319 "1"
+    131 126 315 "32"
+    131 127 316 "32"
+    131 128 317 "2"
+    131 129 319 "1"
+    131 170 315 "32"
+    131 171 316 "32"
+    131 172 317 "2"
+    131 173 318 "4"
+    131 174 319 "1"
+    131 210 315 "32"
+    131 211 316 "32"
+    131 212 318 "4"
+    131 213 317 "2"
+    131 214 319 "1"
+    131 300 315 "32"
+    131 301 316 "32"
+    131 302 317 "2"
+    131 303 319 "1"
+end
+begin 134
+end
+begin 135
+end
+begin 136
+end
+begin 137
+end
+begin 138
+end
+begin 139
+    begin 140
+    end
+end
+begin 141
+end
+begin 142
+    142 216 0 ""
+end
+begin 143
+end
+begin 144
+end
+begin 145
+end
+begin 146
+    145 26 0 ""
+end
+begin 147
+    begin 148
+    end
+    begin 149
+        148 26 0 ""
+    end
+    begin 150
+        begin 151
+        end
+    end
+end
+begin 152
+    begin 153
+        153 27 0 ""
+    end
+    152 161 320 ""
+    152 636 321 "0"
+    152 637 323 "3"
+    152 638 324 "4"
+    152 639 326 "7"
+    152 640 328 "12:11"
+    152 641 329 "17"
+    152 717 321 "0"
+    152 719 324 "4"
+    152 902 321 "0"
+    152 903 323 "3"
+    152 904 324 "4"
+    152 905 326 "7"
+    152 906 328 "12:11"
+    152 907 329 "17"
+end
+begin 154
+    begin 155
+    end
+    154 1198 337 "if (SHARED_INT_DIV) begin                            alu_en = 1'b0;                            apu_en = 1'b1;                            apu_type_o = APUTYPE_INT_DIV;                            apu_op_o = alu_operator_o;                            apu_lat_o       = 2'h3;                          end"
+    154 1209 337 "if (SHARED_INT_DIV) begin                            alu_en = 1'b0;                            apu_en = 1'b1;                            apu_type_o = APUTYPE_INT_DIV;                            apu_op_o = alu_operator_o;                            apu_lat_o       = 2'h3;                          end"
+    154 1220 337 "if (SHARED_INT_DIV) begin                            alu_en = 1'b0;                            apu_en = 1'b1;                            apu_type_o = APUTYPE_INT_DIV;                            apu_op_o = alu_operator_o;                            apu_lat_o       = 2'h3;                          end"
+    154 1231 337 "if (SHARED_INT_DIV) begin                            alu_en = 1'b0;                            apu_en = 1'b1;                            apu_type_o = APUTYPE_INT_DIV;                            apu_op_o = alu_operator_o;                            apu_lat_o       = 2'h3;                          end"
+    154 1241 336 "if (SHARED_INT_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_flags_src_o = APU_FLAGS_INT_MULT;                             apu_op_o        = mult_operator_o;                             apu_type_o      = APUTYPE_INT_MULT;                             apu_lat_o       = 2'h1;                          end"
+    154 1249 336 "if (SHARED_INT_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_flags_src_o = APU_FLAGS_INT_MULT;                             apu_op_o        = mult_operator_o;                             apu_type_o      = APUTYPE_INT_MULT;                             apu_lat_o       = 2'h1;                          end"
+    154 2026 336 "if (SHARED_INT_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_flags_src_o = APU_FLAGS_INT_MULT;                             apu_op_o        = mult_operator_o;                             apu_type_o      = APUTYPE_INT_MULT;                             apu_lat_o       = 2'h1;                          end"
+    154 2045 336 "if (SHARED_INT_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_flags_src_o = APU_FLAGS_INT_MULT;                             apu_op_o        = mult_operator_o;                             apu_type_o      = APUTYPE_INT_MULT;                             apu_lat_o       = 2'h1;                          end"
+    154 2200 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2206 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2212 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2221 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2229 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2237 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+    154 2252 335 "if (SHARED_DSP_MULT) begin                             mult_int_en     = 1'b0;                             mult_dot_en     = 1'b0;                             apu_en          = 1'b1;                             apu_type_o      = APUTYPE_DSP_MULT;                             apu_flags_src_o = APU_FLAGS_DSP_MULT;                             apu_op_o        = mult_operator_o;                             apu_lat_o       = (PIPE_REG_DSP_MULT==1) ? 2'h2 : 2'h1;                          end"
+end
+begin 156
+    begin 157
+    end
+end
+begin 158
+end
+begin 159
+end
+begin 160
+end
+begin 161
+    161 478 350 "19:15"
+    161 505 350 "19:15"
+    161 506 351 "24:20"
+    161 512 353 "11:07"
+    161 513 350 "19:15"
+    161 514 352 "31:27"
+    161 526 353 "11:07"
+    161 957 0 ""
+end
+begin 162
+end
+begin 163
+    163 113 0 ""
+end
+begin 164
+end
+begin 165
+end
+begin 166
+end
+begin 167
+end
+begin 168
+end
+begin 169
+    begin 170
+    end
+    169 39 364 "'d1"
+    169 66 365 "2'b0"
+    169 66 367 "5'b0"
+    169 111 365 "2'b0"
+    169 111 367 "5'b0"
+    169 150 364 "'d1"
+    169 151 364 "'d1"
+    169 164 366 "2'b1"
+    169 164 368 "5'b0"
+    169 168 365 "2'b0"
+    169 168 367 "5'b0"
+    169 176 365 "2'b0"
+    169 177 365 "2'b0"
+    169 195 365 "2'b0"
+    169 196 365 "2'b0"
+    169 198 366 "2'b1"
+    169 199 366 "2'b1"
+end
+begin 171
+    171 28 369 "((BUFFER_DEPTH) < ( 1 ) ? 0 : (BUFFER_DEPTH) < ( 2 ) ? 1 : (BUFFER_DEPTH) < ( 4 ) ? 2 : (BUFFER_DEPTH) < ( 8 ) ? 3 : (BUFFER_DEPTH) < ( 16 )  ? 4 : (BUFFER_DEPTH) < ( 32 )  ? 5 : (BUFFER_DEPTH) < ( 64 )  ? 6 : (BUFFER_DEPTH) < ( 128 ) ? 7 : (BUFFER_DEPTH) < ( 256 ) ? 8 : (BUFFER_DEPTH) < ( 512 ) ? 9 : (BUFFER_DEPTH) < ( 1024 ) ? 10 : (BUFFER_DEPTH) < ( 2048 ) ? 11 : (BUFFER_DEPTH) < ( 4096 ) ? 12 : (BUFFER_DEPTH) < ( 8192 ) ? 13 : (BUFFER_DEPTH) < ( 16384 ) ? 14 : (BUFFER_DEPTH) < ( 32768 ) ? 15 : (BUFFER_DEPTH) < ( 65536 ) ? 16 : (BUFFER_DEPTH) < ( 131072 ) ? 17 : (BUFFER_DEPTH) < ( 262144 ) ? 18 : (BUFFER_DEPTH) < ( 524288 ) ? 19 : (BUFFER_DEPTH) < ( 1048576 ) ? 20 : (BUFFER_DEPTH) < ( 1048576 * 2 ) ? 21 : (BUFFER_DEPTH) < ( 1048576 * 4 ) ? 22 : (BUFFER_DEPTH) < ( 1048576 * 8 ) ? 23 : (BUFFER_DEPTH) < ( 1048576 * 16 ) ? 24 : 25)"
+    171 82 379 "4'b1010"
+    171 123 370 "4'b0000"
+    171 133 371 "4'b0001"
+    171 139 372 "4'b0010"
+    171 142 373 "4'b0011"
+    171 145 374 "4'b0100"
+    171 153 375 "4'b0101"
+    171 161 378 "4'b1001"
+    171 188 370 "4'b0000"
+    171 190 371 "4'b0001"
+    171 192 372 "4'b0010"
+    171 194 373 "4'b0011"
+    171 196 374 "4'b0100"
+    171 198 375 "4'b0101"
+    171 200 377 "4'b1000"
+    171 202 378 "4'b1001"
+    171 218 376 "4'b0110"
+    171 219 377 "4'b1000"
+end
+begin 172
+end
+begin 173
+    173 208 382 "2'b10"
+    173 214 382 "2'b10"
+    173 222 381 "2'b01"
+    173 222 380 "2'b00"
+    173 232 381 "2'b01"
+    173 232 380 "2'b00"
+    173 244 382 "2'b10"
+    173 244 380 "2'b00"
+    173 263 381 "2'b01"
+    173 263 380 "2'b00"
+    173 296 381 "2'b01"
+    173 296 380 "2'b00"
+    173 301 381 "2'b01"
+    173 301 380 "2'b00"
+    173 313 382 "2'b10"
+    173 313 380 "2'b00"
+    173 332 381 "2'b01"
+    173 332 380 "2'b00"
+    173 370 381 "2'b01"
+    173 370 380 "2'b00"
+    173 378 382 "2'b10"
+    173 378 380 "2'b00"
+    173 397 381 "2'b01"
+    173 397 380 "2'b00"
+    173 435 382 "2'b10"
+    173 435 380 "2'b00"
+    173 447 381 "2'b01"
+    173 447 380 "2'b00"
+    173 476 381 "2'b01"
+    173 476 380 "2'b00"
+    173 492 382 "2'b10"
+    173 492 380 "2'b00"
+    173 506 382 "2'b10"
+    173 506 380 "2'b00"
+    173 527 382 "2'b10"
+end
+begin 174
+    174 17 383 "((BUFFER_DEPTH) < ( 1 ) ? 0 : (BUFFER_DEPTH) < ( 2 ) ? 1 : (BUFFER_DEPTH) < ( 4 ) ? 2 : (BUFFER_DEPTH) < ( 8 ) ? 3 : (BUFFER_DEPTH) < ( 16 )  ? 4 : (BUFFER_DEPTH) < ( 32 )  ? 5 : (BUFFER_DEPTH) < ( 64 )  ? 6 : (BUFFER_DEPTH) < ( 128 ) ? 7 : (BUFFER_DEPTH) < ( 256 ) ? 8 : (BUFFER_DEPTH) < ( 512 ) ? 9 : (BUFFER_DEPTH) < ( 1024 ) ? 10 : (BUFFER_DEPTH) < ( 2048 ) ? 11 : (BUFFER_DEPTH) < ( 4096 ) ? 12 : (BUFFER_DEPTH) < ( 8192 ) ? 13 : (BUFFER_DEPTH) < ( 16384 ) ? 14 : (BUFFER_DEPTH) < ( 32768 ) ? 15 : (BUFFER_DEPTH) < ( 65536 ) ? 16 : (BUFFER_DEPTH) < ( 131072 ) ? 17 : (BUFFER_DEPTH) < ( 262144 ) ? 18 : (BUFFER_DEPTH) < ( 524288 ) ? 19 : (BUFFER_DEPTH) < ( 1048576 ) ? 20 : (BUFFER_DEPTH) < ( 1048576 * 2 ) ? 21 : (BUFFER_DEPTH) < ( 1048576 * 4 ) ? 22 : (BUFFER_DEPTH) < ( 1048576 * 8 ) ? 23 : (BUFFER_DEPTH) < ( 1048576 * 16 ) ? 24 : 25)"
+end
+begin 175
+end
+begin 176
+end
+begin 177
+end
+begin 178
+end
+begin 179
+    179 116 386 "2'b10"
+    179 116 384 "2'b00"
+    179 135 386 "2'b10"
+    179 135 384 "2'b00"
+    179 171 386 "2'b10"
+    179 171 384 "2'b00"
+    179 202 386 "2'b10"
+    179 202 384 "2'b00"
+    179 234 386 "2'b10"
+    179 234 384 "2'b00"
+    179 246 385 "2'b01"
+    179 262 386 "2'b10"
+    179 262 384 "2'b00"
+    179 289 385 "2'b01"
+    179 289 384 "2'b00"
+end
+begin 180
+end
+begin 181
+end
+begin 182
+end
+begin 183
+end
+begin 184
+end
+begin 185
+end
+begin 186
+    begin 187
+    end
+        187 11 125 ""
+    186 48 127 ""
+end
+begin 188
+    begin 189
+    end
+    188 41 397 "'d3"
+    188 42 397 "'d3"
+    188 50 397 "'d3"
+    188 61 387 "2'b00"
+    188 65 389 "2'b10"
+    188 65 387 "2'b00"
+    188 65 389 "2'b10"
+    188 70 388 "2'b01"
+    188 70 391 "'d5"
+    188 70 390 "'d3"
+    188 79 387 "2'b00"
+    188 81 388 "2'b01"
+    188 81 392 "'d0"
+    188 83 387 "2'b00"
+    188 83 387 "2'b00"
+    188 85 388 "2'b01"
+    188 85 392 "'d0"
+    188 85 388 "2'b01"
+    188 85 391 "'d5"
+    188 85 390 "'d3"
+    188 86 387 "2'b00"
+    188 86 387 "2'b00"
+    188 89 388 "2'b01"
+    188 98 387 "2'b00"
+    188 99 387 "2'b00"
+    188 101 388 "2'b01"
+    188 102 388 "2'b01"
+    188 104 389 "2'b10"
+    188 106 389 "2'b10"
+    188 107 387 "2'b00"
+    188 123 387 "2'b00"
+    188 124 387 "2'b00"
+    188 126 388 "2'b01"
+    188 127 388 "2'b01"
+    188 129 389 "2'b10"
+    188 130 389 "2'b10"
+end
+begin 190
+end
+begin 191
+end
+begin 192
+end

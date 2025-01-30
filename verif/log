@@ -1,0 +1,278 @@
+                         Chronologic VCS (TM)
+         Version W-2024.09_Full64 -- Thu Jan 23 13:19:31 2025
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+[SCL] SCL trace is enabled.
+[SCL] 01/23/2025 13:19:31 Checking status for feature VCS-BASE-COMPILE
+[SCL] 01/23/2025 13:19:31 PID:338142 Client:vlsi Server:27020@vlsi Checkout succeeded VCS-BASE-COMPILE 2024.09 from VCS-Base-Compile-Pkg
+Parsing design file '../rtl/adbg_axi_biu.sv'
+Parsing design file '../rtl/adbg_axi_defines.v'
+Parsing design file '../rtl/adbg_axi_module.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_defines.v'.
+Back to file '../rtl/adbg_axi_module.sv'.
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_axi_defines.v'.
+Back to file '../rtl/adbg_axi_module.sv'.
+Parsing design file '../rtl/adbg_crc32.sv'
+Parsing design file '../rtl/adbg_defines.v'
+Parsing design file '../rtl/adbg_or1k_biu.sv'
+Parsing design file '../rtl/adbg_or1k_defines.v'
+Parsing design file '../rtl/adbg_or1k_module.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_defines.v'.
+Back to file '../rtl/adbg_or1k_module.sv'.
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_or1k_defines.v'.
+Back to file '../rtl/adbg_or1k_module.sv'.
+Parsing design file '../rtl/adbg_or1k_status_reg.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_or1k_defines.v'.
+Back to file '../rtl/adbg_or1k_status_reg.sv'.
+Parsing design file '../rtl/adbg_tap_defines.v'
+Parsing design file '../rtl/adbg_tap_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_tap_defines.v'.
+Back to file '../rtl/adbg_tap_top.sv'.
+Parsing design file '../rtl/adbg_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/adbg_defines.v'.
+Back to file '../rtl/adbg_top.sv'.
+Parsing design file '../rtl/adv_dbg_if.sv'
+Parsing design file '../rtl/apb2per.sv'
+Parsing design file '../rtl/apb_bus.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/config.sv'.
+Back to file '../rtl/apb_bus.sv'.
+Parsing design file '../rtl/apb_event_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/defines_event_unit.sv'.
+Back to file '../rtl/apb_event_unit.sv'.
+Parsing design file '../rtl/apb_fll_if.sv'
+Parsing design file '../rtl/apb_gpio.sv'
+Parsing design file '../rtl/apb_i2c.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/i2c_master_defines.sv'.
+Back to file '../rtl/apb_i2c.sv'.
+Parsing design file '../rtl/apb_mock_uart.sv'
+Parsing design file '../rtl/apb_node.sv'
+Parsing design file '../rtl/apb_node_wrap.sv'
+Parsing design file '../rtl/apb_pulpino.sv'
+Parsing design file '../rtl/apb_spi_master.sv'
+Parsing design file '../rtl/apb_timer.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/defines_event_unit.sv'.
+Back to file '../rtl/apb_timer.sv'.
+Parsing design file '../rtl/apb_uart_sv.sv'
+Parsing design file '../rtl/apu_core_package.sv'
+Parsing design file '../rtl/apu_defines.sv'
+Parsing design file '../rtl/apu_macros.sv'
+Parsing design file '../rtl/assert.sv'
+Parsing design file '../rtl/axi2apb.sv'
+Parsing design file '../rtl/axi2apb_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/axi2apb_wrap.sv'.
+Parsing design file '../rtl/axi_address_decoder_AR.sv'
+Parsing design file '../rtl/axi_address_decoder_AW.sv'
+Parsing design file '../rtl/axi_address_decoder_BR.sv'
+Parsing design file '../rtl/axi_address_decoder_BW.sv'
+Parsing design file '../rtl/axi_address_decoder_DW.sv'
+Parsing design file '../rtl/axi_AR_allocator.sv'
+Parsing design file '../rtl/axi_ArbitrationTree.sv'
+Parsing design file '../rtl/axi_ar_buffer.sv'
+Parsing design file '../rtl/axi_AW_allocator.sv'
+Parsing design file '../rtl/axi_aw_buffer.sv'
+Parsing design file '../rtl/axi_b_buffer.sv'
+Parsing design file '../rtl/axi_BR_allocator.sv'
+Parsing design file '../rtl/axi_bus.sv'
+Parsing design file '../rtl/axi_BW_allocator.sv'
+Parsing design file '../rtl/axi_DW_allocator.sv'
+Parsing design file '../rtl/axi_FanInPrimitive_Req.sv'
+Parsing design file '../rtl/axi_mem_if_SP.sv'
+Parsing design file '../rtl/axi_mem_if_SP_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/axi_mem_if_SP_wrap.sv'.
+Parsing design file '../rtl/axi_multiplexer.sv'
+Parsing design file '../rtl/axi_node_intf_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/axi_node_intf_wrap.sv'.
+Parsing design file '../rtl/axi_node.sv'
+Parsing design file '../rtl/axi_pkg.sv'
+Parsing design file '../rtl/axi_r_buffer.sv'
+Parsing design file '../rtl/axi_read_only_ctrl.sv'
+Parsing design file '../rtl/axi_request_block.sv'
+Parsing design file '../rtl/axi_response_block.sv'
+Parsing design file '../rtl/axi_RR_Flag_Req.sv'
+Parsing design file '../rtl/axi_single_slice.sv'
+Parsing design file '../rtl/axi_slice.sv'
+Parsing design file '../rtl/axi_slice_wrap.sv'
+Parsing design file '../rtl/axi_spi_slave.sv'
+Parsing design file '../rtl/axi_spi_slave_wrap.sv'
+Parsing design file '../rtl/axi_w_buffer.sv'
+Parsing design file '../rtl/axi_write_only_ctrl.sv'
+Parsing design file '../rtl/boot_code.sv'
+Parsing design file '../rtl/boot_rom_wrap.sv'
+Parsing design file '../rtl/cf_math_pkg.sv'
+Parsing design file '../rtl/clk_rst_gen.sv'
+Parsing design file '../rtl/cluster_clock_gating.sv'
+Parsing design file '../rtl/cluster_clock_inverter.sv'
+Parsing design file '../rtl/cluster_clock_mux2.sv'
+Parsing design file '../rtl/config.sv'
+Parsing design file '../rtl/core2axi.sv'
+Parsing design file '../rtl/core2axi_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/core2axi_wrap.sv'.
+Parsing design file '../rtl/core_region.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/core_region.sv'.
+Parsing design file '../rtl/dc_data_buffer.sv'
+Parsing design file '../rtl/dc_full_detector.v'
+Parsing design file '../rtl/dc_synchronizer.v'
+Parsing design file '../rtl/dc_token_ring_fifo_din.v'
+Parsing design file '../rtl/dc_token_ring_fifo_dout.v'
+Parsing design file '../rtl/dc_token_ring.v'
+Parsing design file '../rtl/debug_bus.sv'
+Parsing design file '../rtl/defines_event_unit.sv'
+Parsing design file '../rtl/dp_ram.sv'
+Parsing design file '../rtl/dp_ram_wrap.sv'
+Parsing design file '../rtl/fifo_v2.sv'
+Parsing design file '../rtl/fifo_v3.sv'
+Parsing design file '../rtl/fpnew_pkg.sv'
+Parsing design file '../rtl/generic_fifo.sv'
+Parsing design file '../rtl/generic_service_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/defines_event_unit.sv'.
+Back to file '../rtl/generic_service_unit.sv'.
+Parsing design file '../rtl/i2c_master_bit_ctrl.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/i2c_master_defines.sv'.
+Back to file '../rtl/i2c_master_bit_ctrl.sv'.
+Parsing design file '../rtl/i2c_master_byte_ctrl.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/i2c_master_defines.sv'.
+Back to file '../rtl/i2c_master_byte_ctrl.sv'.
+Parsing design file '../rtl/i2c_master_defines.sv'
+Parsing design file '../rtl/instr_ram_wrap.sv'
+Parsing design file '../rtl/io_generic_fifo.sv'
+Parsing design file '../rtl/onehot_to_bin.sv'
+Parsing design file '../rtl/periph_bus_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/apb_bus.sv'.
+Back to file '../rtl/periph_bus_wrap.sv'.
+Parsing design file '../rtl/peripherals.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/peripherals.sv'.
+Parsing included file '/home/nitintyagi/pulpino/rtl/debug_bus.sv'.
+Back to file '../rtl/peripherals.sv'.
+Parsing design file '../rtl/pulp_clock_gating.sv'
+Parsing design file '../rtl/pulp_clock_inverter.sv'
+Parsing design file '../rtl/pulp_clock_mux2.sv'
+Parsing design file '../rtl/pulpino_tb.v'
+Parsing included file '/home/nitintyagi/pulpino/rtl/pulpino_wrap.v'.
+Back to file '../rtl/pulpino_tb.v'.
+Parsing design file '../rtl/pulpino_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/axi_bus.sv'.
+Back to file '../rtl/pulpino_top.sv'.
+Parsing design file '../rtl/pulpino_wrap.v'
+
+Warning-[OPD] Override previous declaration
+../rtl/pulpino_wrap.v, 10
+  module 'pulpino' previously declared 
+  at:"/home/nitintyagi/pulpino/rtl/pulpino_wrap.v", 10
+  This module will be overridden by the last declaration.
+  
+
+Parsing design file '../rtl/ram_mux.sv'
+Parsing design file '../rtl/random_stalls.sv'
+Parsing design file '../rtl/register_file_test_wrap.sv'
+Parsing design file '../rtl/risc_mult.sv'
+
+Error-[SV-LCM-PND] Package not defined
+../rtl/risc_mult.sv, 28
+riscv_mult, "riscv_defines::"
+  Package scope resolution failed. Token 'riscv_defines' is not a package. 
+  Originating module 'riscv_mult'.
+  Move package definition before the use of the package.
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 103
+  Identifier 'MUL_IR' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 148
+  Identifier 'MUL_H' has not been declared yet. If this error is not expected,
+  please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 226
+  Identifier 'MUL_MSU32' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 315
+  Identifier 'MUL_MAC32' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 317
+  Identifier 'MUL_I' has not been declared yet. If this error is not expected,
+  please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 319
+  Identifier 'MUL_DOT8' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+
+Error-[IND] Identifier not declared
+../rtl/risc_mult.sv, 320
+  Identifier 'MUL_DOT16' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+Parsing design file '../rtl/riscv_alu_div.sv'
+Parsing design file '../rtl/riscv_alu.sv'
+
+Error-[SV-LCM-PND] Package not defined
+../rtl/riscv_alu.sv, 29
+riscv_alu, "riscv_defines::"
+  Package scope resolution failed. Token 'riscv_defines' is not a package. 
+  Originating module 'riscv_alu'.
+  Move package definition before the use of the package.
+
+
+Error-[IND] Identifier not declared
+../rtl/riscv_alu.sv, 37
+  Identifier 'ALU_OP_WIDTH' has not been declared yet. If this error is not 
+  expected, please check if you have set `default_nettype to none.
+  
+
+
+Note-[MAX_ERROR_COUNT] Maximum error count reached
+  Current number of errors has reached the default maximum error count (10).
+  Please use +error+<count> to increase the limit.
+
+2 warnings
+10 errors
+[SCL] 01/23/2025 13:19:31 PID:338142 Client:vlsi checkin (null) 
+CPU time: .176 seconds to compile
+[1] 338173

@@ -1,0 +1,1129 @@
+Command: vcs -sverilog -error=noMPD -full64 -j4 -timescale=1ns/1ps +v2k +systemverilogext+.sv \
++verilog2001ext+.v -f run_all.f -top pulpino_top +error+10000 -kdb -debug_access+all \
+-lca +incdir+/home/nitintyagi/pulpino/rtl +incdir+/home/nitintyagi/pulpino/rtl/includes \
++incdir+/home/nitintyagi/pulpino/tb +incdir+/home/nitintyagi/pulpino/ips/apb/apb_i2c/ \
++incdir+/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include +incdir+/home/nitintyagi/pulpino/ips/riscv/tb/serDiv \
++incdir+/home/nitintyagi/pulpino/ips/zero-riscy/include +incdir+/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl \
++incdir+/home/nitintyagi/pulpino/ips/axi/axi_node +incdir+/home/nitintyagi/pulpino/ips/riscv/include \
+-l sim.log
+                         Chronologic VCS (TM)
+         Version W-2024.09_Full64 -- Mon Jan 27 14:10:48 2025
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/apb_mock_uart.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/axi_node_intf_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/axi_node_intf_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/axi_slice_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/axi_spi_slave_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/boot_code.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/boot_rom_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/clk_rst_gen.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/cluster_clock_gating.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/cluster_clock_inverter.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/cluster_clock_mux2.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/dp_ram.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/generic_fifo.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/pulp_clock_gating.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/pulp_clock_inverter.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/pulp_clock_mux2.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/rstgen.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/components/sp_ram.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/core2axi_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/core2axi_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/core_region.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/core_region.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/dp_ram_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/apb_bus.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/apu_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/config.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/debug_bus.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/instr_ram_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/periph_bus_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/apb_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/periph_bus_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/peripherals.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/peripherals.sv'.
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/debug_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/peripherals.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/pulpino_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/pulpino_top.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ram_mux.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/random_stalls.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/sp_ram_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/axi2apb_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/axi2apb_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/axi_mem_if_SP_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/axi_mem_if_SP_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_biu.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_module.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_module.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_axi_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axi_module.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axionly_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_axionly_top.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_crc32.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_biu.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_module.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_module.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_lint_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lint_module.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lintonly_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_lintonly_top.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_biu.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_module.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_module.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_or1k_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_module.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_status_reg.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_or1k_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_or1k_status_reg.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_top.v'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_tap_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_tap_top.v'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_top.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl/adbg_defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adbg_top.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/adv_dbg_if.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/bytefifo.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncflop.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/adv_dbg_if/rtl/syncreg.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb2per/apb2per.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_fll_if/apb_fll_if.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_gpio/apb_gpio.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/apb_i2c.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_i2c/i2c_master_defines.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/apb_i2c.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_bit_ctrl.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_i2c/i2c_master_defines.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_bit_ctrl.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_byte_ctrl.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_i2c/i2c_master_defines.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_byte_ctrl.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/i2c_master_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/apb_spi_master.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 13
+  Text macro (REG_STATUS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_i2c/apb_i2c.sv, 16.
+  Previous value: 3'b011 
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_clkgen.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_controller.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_fifo.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_rx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_tx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/include/defines_event_unit.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/apb_event_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/apb_event_unit.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/generic_service_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/generic_service_unit.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/sleep_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_event_unit/sleep_unit.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_node/apb_node_wrap.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/io_generic_fifo.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_interrupt.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_rx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/uart_tx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_pulpino/apb_pulpino.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_pulpino/apb_pulpino.sv, 16
+  Text macro (REG_STATUS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  13.
+  Previous value: 4'b0000 
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/apb_timer.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/apb_timer.sv, 11
+  Text macro (REGS_MAX_ADR) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv,
+  31.
+  Previous value: 'd2
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/timer.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/apb/apb_timer/timer.sv, 13
+  Text macro (REGS_MAX_IDX) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/ips/apb/apb_event_unit/include/defines_event_unit.sv,
+  30.
+  Previous value: 'd3 
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_core_package.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/include/apu_macros.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_config.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/include/riscv_tracer_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_L0_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_basic.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_basic.sv, 28
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_alu_div.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_apu_disp.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv, 15
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_apu_disp.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_compressed_decoder.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_compressed_decoder.sv, 28
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_controller.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_controller.sv, 29
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv, 31
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/include/riscv_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_core.sv, 35
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_cs_registers.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_cs_registers.sv, 29
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_debug_unit.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_debug_unit.sv, 23
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_decoder.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv, 15
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_decoder.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_decoder.sv, 30
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/ips/riscv/include/apu_macros.sv, 15
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv, 37
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_ex_stage.sv, 38
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_fetch_fifo.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_controller.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_hwloop_regs.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_id_stage.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_id_stage.sv, 30
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_id_stage.sv, 31
+$unit
+  Package 'apu_core_package' already wildcard imported. 
+  Ignoring apu_core_package::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_if_stage.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_if_stage.sv, 29
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_int_controller.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_int_controller.sv, 24
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_load_store_unit.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_mult.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_mult.sv, 28
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_L0_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_prefetch_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_register_file_latch.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_tracer.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/riscv/riscv_tracer.sv, 27
+$unit
+  Package 'riscv_defines' already wildcard imported. 
+  Ignoring riscv_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_udiv.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_urem.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_div.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv'.
+Parsing included file '/home/nitintyagi/pulpino/ips/riscv/tb/serDiv/tb_rem.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/riscv/tb/serDiv/tb.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_config.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/include/zeroriscy_tracer_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_alu.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_alu.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_compressed_decoder.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_compressed_decoder.sv, 25
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_controller.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_controller.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_controller.sv, 30
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_core.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_core.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_core.sv, 31
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_cs_registers.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_cs_registers.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_cs_registers.sv, 29
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_debug_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_debug_unit.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_debug_unit.sv, 27
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_decoder.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_decoder.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_decoder.sv, 31
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_ex_block.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_ex_block.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_ex_block.sv, 31
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_fetch_fifo.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_fetch_fifo.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_id_stage.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_id_stage.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_id_stage.sv, 31
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_if_stage.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_if_stage.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_if_stage.sv, 30
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_int_controller.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_int_controller.sv, 24
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_load_store_unit.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_load_store_unit.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_fast.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_fast.sv, 23
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_slow.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_multdiv_slow.sv, 23
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_prefetch_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file_ff.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_register_file_ff.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_tracer.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/zero-riscy/include/zeroriscy_config.sv'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_tracer.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/zero-riscy/zeroriscy_tracer.sv, 30
+$unit
+  Package 'zeroriscy_defines' already wildcard imported. 
+  Ignoring zeroriscy_defines::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_utils/fpu_ff.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_defs.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/defines_fpu.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fp_fma_wrapper.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpexc.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu.sv, 33
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_add.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_add.sv, 32
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_core.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_core.sv, 35
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_ftoi.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_ftoi.sv, 32
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_itof.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_itof.sv, 32
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_mult.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_mult.sv, 32
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_norm.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_norm.sv, 33
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_private.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_private.sv, 34
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/fp_defines.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_shared.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_shared.sv, 31
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/riscv_fpu.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/riscv_fpu.sv, 33
+$unit
+  Package 'fpu_defs' already wildcard imported. 
+  Ignoring fpu_defs::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_defs_div_sqrt_tp.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/control_tp.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/div_sqrt_top_tp.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/div_sqrt_top_tp.sv, 32
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_norm_div_sqrt.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/fpu_norm_div_sqrt.sv, 42
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt.sv, 31
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt_first.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt_first.sv, 31
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/nrbd_nrsc_tp.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/nrbd_nrsc_tp.sv, 31
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/preprocess.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_div_sqrt_tp_nlp/preprocess.sv, 32
+$unit
+  Package 'fpu_defs_div_sqrt_tp' already wildcard imported. 
+  Ignoring fpu_defs_div_sqrt_tp::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_defs_fmac.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/CSA.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/LZA.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/LZA.sv, 33
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/adders.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/adders.sv, 31
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/aligner.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/aligner.sv, 31
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_encoder.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_encoder.sv, 32
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_selector.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/booth_selector.sv, 32
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fmac.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fmac.sv, 33
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_norm_fmac.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/fpu_norm_fmac.sv, 33
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/pp_generation.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/pp_generation.sv, 32
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/preprocess_fmac.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/preprocess_fmac.sv, 33
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/wallace.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_fmac/wallace.sv, 32
+$unit
+  Package 'fpu_defs_fmac' already wildcard imported. 
+  Ignoring fpu_defs_fmac::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/AXI_2_APB_32.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi2apb/axi2apb32.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_ar_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_aw_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_b_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_r_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_slice.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice/axi_w_buffer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_dc_fifo.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/axi_spi_slave.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_axi_plug.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_cmd_parser.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_controller.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_controller.sv, 13
+  Text macro (SPI_QUAD_TX) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_controller.sv,
+  12.
+  Previous value: 2'b01
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_controller.sv, 14
+  Text macro (SPI_QUAD_RX) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_controller.sv,
+  13.
+  Previous value: 2'b10
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_regs.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_rx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_syncro.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_tx.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/apb_regs_top.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AR_allocator.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_AW_allocator.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_ArbitrationTree.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BR_allocator.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/axi/axi_node/defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BR_allocator.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BW_allocator.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/axi/axi_node/defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_BW_allocator.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_DW_allocator.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_FanInPrimitive_Req.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_RR_Flag_Req.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AR.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_AW.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BR.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_BW.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_address_decoder_DW.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_multiplexer.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/axi/axi_node/defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/axi/axi_node/defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/includes/axi_bus.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap_with_slices.sv'
+Parsing included file '/home/nitintyagi/pulpino/ips/axi/axi_node/defines.v'.
+Back to file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_node_wrap_with_slices.sv'.
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_regs_top.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_request_block.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/axi_response_block.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_node/defines.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/axi_spi_master.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 17
+  Text macro (REG_STATUS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_pulpino/apb_pulpino.sv, 16.
+  Previous value: 4'b0101
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 18
+  Text macro (REG_CLKDIV) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  14.
+  Previous value: 4'b0001 
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 19
+  Text macro (REG_SPICMD) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  15.
+  Previous value: 4'b0010 
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 20
+  Text macro (REG_SPIADR) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  16.
+  Previous value: 4'b0011 
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 21
+  Text macro (REG_SPILEN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  17.
+  Previous value: 4'b0100 
+
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 22
+  Text macro (REG_SPIDUM) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/apb/apb_spi_master/spi_master_apb_if.sv, 
+  18.
+  Previous value: 4'b0101 
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/core2axi/core2axi.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_DP_hybr.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_MP_Hybrid_multi_bank.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_SP.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_mem_if_multi_bank.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_read_only_ctrl.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/axi_write_only_ctrl.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_DP.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_read_only.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_mem_if_DP/tb_axi_write_only.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_master.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/axi_slice_dc_slave.sv'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_data_buffer.v'
+
+Warning-[TMR] Text macro redefined
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_data_buffer.v, 24
+  Text macro (log2) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  /home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_master/spi_master_axi_if.sv, 
+  11.
+  Previous value: ((VALUE) < ( 1 ) ? 0 : (VALUE) < ( 2 ) ? 1 : (VALUE) < ( 4 )
+  ? 2 : (VALUE) < ( 8 ) ? 3 : (VALUE) < ( 16 )  ? 4 : (VALUE) < ( 32 )  ? 5 : 
+  (VALUE) < ( 64 )  ? 6 : (VALUE) < ( 128 ) ? 7 : (VALUE) < ( 256 ) ? 8 : 
+  (VALUE) < ( 512 ) ? 9 : (VALUE) < ( 1024 ) ? 10 : (VALUE) < ( 2048 ) ? 11 : 
+  (VALUE) < ( 4096 ) ? 12 : (VALUE) < ( 8192 ) ? 13 : (VALUE) < ( 16384 ) ? 14
+  : (VALUE) < ( 32768 ) ? 15 : (VALUE) < ( 65536 ) ? 16 : (VALUE) < ( 131072 )
+  ? 17 : (VALUE) < ( 262144 ) ? 18 : (VALUE) < ( 524288 ) ? 19 : (VALUE) < ( 
+  1048576 ) ? 20 : (VALUE) < ( 1048576 * 2 ) ? 21 : (VALUE) < ( 1048576 * 4 ) 
+  ? 22 : (VALUE) < ( 1048576 * 8 ) ? 23 : (VALUE) < ( 1048576 * 16 ) ? 24 : 
+  25)
+
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_full_detector.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_synchronizer.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_din.v'
+Parsing design file '/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_dout.v'
+Top Level Modules:
+       pulpino_top
+
+Warning-[UII-L] Interface not instantiated
+/home/nitintyagi/pulpino/rtl/includes/fp_defines.sv, 145
+marx_arbiter_if
+  Interface 'marx_arbiter_if' defined in logic library 'work' is never 
+  instantiated in design. It will be ignored.
+
+
+Warning-[UII-L] Interface not instantiated
+/home/nitintyagi/pulpino/rtl/includes/fp_defines.sv, 176
+cpu_marx_if
+  Interface 'cpu_marx_if' defined in logic library 'work' is never 
+  instantiated in design. It will be ignored.
+
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+/home/nitintyagi/pulpino/rtl/core_region.sv, 571
+core_region, "adv_dbg_if #(.NB_CORES(1), .AXI_ADDR_WIDTH(AXI_ADDR_WIDTH), .AXI_DATA_WIDTH(AXI_DATA_WIDTH), .AXI_USER_WIDTH(AXI_USER_WIDTH), .AXI_ID_WIDTH(AXI_ID_MASTER_WIDTH)) adv_dbg_if_i( .tms_pad_i (tms_i),  .tck_pad_i (tck_i),  .trstn_pad_i (trstn_i),  .tdi_pad_i (tdi_i),  .tdo_pad_o (tdo_o),  .test_mode_i (testmode_i),  .cpu_data_i ('0),  .cpu_bp_i ('0),  .cpu_ack_i ('1),  .axi_aclk (clk),  .axi_aresetn (rst_n),  .axi_master_aw_valid (dbg_master.aw_valid),  .axi_master_aw_addr (dbg_master.aw_addr),  .axi_master_aw_prot (dbg_master.aw_prot),  .axi_master_aw_region (dbg_master.aw_region),  .axi_master_aw_len (dbg_master.aw_len),  .axi_master_aw_size (dbg_master.aw_size),  .axi_master_aw_burst (dbg_master.aw_burst),  .axi_master_aw_lock (dbg_master.aw_lock),  .axi_ ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "INT" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "OUT1N" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "OUT2N" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "RTSN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "DTRN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "CTSN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "DSRN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "DCDN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "RIN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "SIN" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Error-[UPIMI-E] Undefined port in module instantiation
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+  Port "SOUT" is not defined in module 'apb_uart_sv' defined in 
+  "/home/nitintyagi/pulpino/rtl/ips/apb/apb_uart_sv/apb_uart_sv.sv", 11
+  Module instance: apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n), 
+  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE 
+  (s_uart_bus.pwrite),  .PADDR (s_ ...
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 240
+peripherals, "apb_uart_sv apb_uart_i( .CLK (clk_int[1]),  .RSTN (rst_n),  .PSEL (s_uart_bus.psel),  .PENABLE (s_uart_bus.penable),  .PWRITE (s_uart_bus.pwrite),  .PADDR (s_uart_bus.paddr[4:2]),  .PWDATA (s_uart_bus.pwdata),  .PRDATA (s_uart_bus.prdata),  .PREADY (s_uart_bus.pready),  .PSLVERR (s_uart_bus.pslverr),  .INT (s_uart_event),  .RTSN (uart_rts),  .DTRN (uart_dtr),  .CTSN (uart_cts),  .DSRN (uart_dsr),  .DCDN (1'b1),  .RIN (1'b1),  .SIN (uart_rx),  .SOUT (uart_tx));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/nitintyagi/pulpino/rtl/peripherals.sv, 297
+peripherals, "apb_gpio apb_gpio_i( .HCLK (clk_int[2]),  .HRESETn (rst_n),  .PADDR (s_gpio_bus.paddr[11:0]),  .PWDATA (s_gpio_bus.pwdata),  .PWRITE (s_gpio_bus.pwrite),  .PSEL (s_gpio_bus.psel),  .PENABLE (s_gpio_bus.penable),  .PRDATA (s_gpio_bus.prdata),  .PREADY (s_gpio_bus.pready),  .PSLVERR (s_gpio_bus.pslverr),  .gpio_in (gpio_in),  .gpio_out (gpio_out),  .gpio_dir (gpio_dir),  .gpio_padcfg (gpio_padcfg),  .interrupt (s_gpio_event));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/nitintyagi/pulpino/rtl/ips/fpu/hdl/fpu_v0.1/fpu_shared.sv, 122
+fpu_shared, "fpu_core core( .Clk_CI (Clk_CI),  .Rst_RBI (Rst_RBI),  .Enable_SI (Valid_S),  .Operand_a_DI (Operand_a_D),  .Operand_b_DI (Operand_b_D),  .RM_SI (RM_S),  .OP_SI (Op_S),  .Result_DO (Result_D),  .OF_SO (OF_S),  .UF_SO (UF_S),  .Zero_SO (Zero_S),  .IX_SO (IX_S),  .IV_SO (IV_S),  .Inf_SO (Inf_S));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+20 warnings
+11 errors
+CPU time: .462 seconds to compile

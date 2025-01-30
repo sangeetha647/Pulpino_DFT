@@ -1,0 +1,1 @@
+obj_dir/Vapb_i2c.cpp obj_dir/Vapb_i2c.h obj_dir/Vapb_i2c.mk obj_dir/Vapb_i2c__Slow.cpp obj_dir/Vapb_i2c__Syms.cpp obj_dir/Vapb_i2c__Syms.h obj_dir/Vapb_i2c__ver.d obj_dir/Vapb_i2c_classes.mk  : /usr/bin/verilator_bin /usr/bin/verilator_bin apb_i2c.sv i2c_master_bit_ctrl.sv i2c_master_byte_ctrl.sv i2c_master_defines.sv 

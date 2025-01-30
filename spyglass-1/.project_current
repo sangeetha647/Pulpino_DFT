@@ -1,0 +1,324 @@
+##Data Import Section
+
+read_file -type verilog rtl/adbg_axi_biu.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_axi_defines.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_axi_module.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_crc32.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_defines.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_or1k_biu.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_or1k_defines.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_or1k_module.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_or1k_status_reg.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_tap_defines.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_tap_top.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adbg_top.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/adv_dbg_if.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb2per.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_bus.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_event_unit.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_fll_if.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_gpio.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_i2c.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_mock_uart.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_node.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_node_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_pulpino.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_spi_master.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_timer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apb_uart_sv.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apu_core_package.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apu_defines.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/apu_macros.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/assert.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/assert_tb.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/assert_tb.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi2apb.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi2apb_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_address_decoder_AR.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_address_decoder_AW.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_address_decoder_BR.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_address_decoder_BW.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_address_decoder_DW.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_AR_allocator.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_ar_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_ArbitrationTree.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_AW_allocator.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_aw_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_b_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_BR_allocator.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_bus.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_BW_allocator.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_DW_allocator.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_FanInPrimitive_Req.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_mem_if_SP.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_mem_if_SP_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_multiplexer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_node.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_node_intf_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_pkg.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_r_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_read_only_ctrl.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_request_block.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_response_block.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_RR_Flag_Req.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_single_slice.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_slice.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_slice_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_spi_slave.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_spi_slave_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_w_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/axi_write_only_ctrl.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/boot_code.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/boot_rom_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/cf_math_pkg.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/clk_rst_gen.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/cluster_clock_gating.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/cluster_clock_inverter.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/cluster_clock_mux2.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/config.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/core2axi.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/core2axi_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/core_region.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_data_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_full_detector.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_synchronizer.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_token_ring.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_token_ring_fifo_din.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dc_token_ring_fifo_dout.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/debug_bus.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/defines_event_unit.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dp_ram.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/dp_ram_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/fifo_v2.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/fifo_v3.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/fpnew_pkg.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/generic_fifo.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/generic_service_unit.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/i2c_master_bit_ctrl.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/i2c_master_byte_ctrl.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/i2c_master_defines.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/instr_ram_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/io_generic_fifo.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/onehot_to_bin.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/periph_bus_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/peripherals.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulp_clock_gating.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulp_clock_inverter.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulp_clock_mux2.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulpino_tb.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulpino_top.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/pulpino_wrap.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/ram_mux.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/random_stalls.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/register_file_test_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/risc_mult.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_alu.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_alu_div.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_compressed_decoder.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_config.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_controller.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_core.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_cs_registers.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_decoder.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_defines.v
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_ex_stage.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_fetch_fifo.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_hwloop_controller.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_hwloop_regs.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_id_stage.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_if_stage.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_int_controller.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_load_store_unit.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_mult.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_prefetch_buffer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/riscv_register_file.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/rstgen.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/sleep_unit.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/sp_ram.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/sp_ram_wrap.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_apb_if.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_clkgen.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_controller.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_fifo.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_rx.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_master_tx.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_axi_plug.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_cmd_parser.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_controller.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_dc_fifo.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_regs.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_rx.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_syncro.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/spi_slave_tx.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/timer.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/uart_interrupt.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/uart_rx.sv
+#BackRefFile:N.A. #LineNumber:1
+read_file -type verilog rtl/uart_tx.sv
+#BackRefFile:N.A. #LineNumber:1
+
+##Common Options Section
+
+set_option projectwdir .
+set_option language_mode mixed
+set_option designread_enable_synthesis no
+set_option designread_disable_flatten no
+set_option enableSV yes
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+

@@ -1,0 +1,24 @@
+2025-01-27 17:48:22:1737980302860 | INFO  | Process Limits
+	 Virual Memory -> no limit
+	 Time Limit -> no limit
+	 Stack Size -> no limit
+	 Data Segment -> no limit
+	 File Size -> no limit
+	 Lock Limit -> no limit
+	 CPU Time Limit -> no limit
+	 RSS  -> no limit
+	 Threads  -> 125819 
+Available Cores : 24
+SystemInfo : totalram=31523.3 freeram=252.629 sharedram=869.836 bufferram=0 totalswap=24148 freeswap=1944.95 procs= 14339
+
+2025-01-27 17:48:22:1737980302860 | INFO  | Share License key => -4657764151485573104 for master run  Old Key => -4657764151485573104
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: check_cdc cmdPtr: 0x16b92000
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: check_glitch cmdPtr: 0x16b96000
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: check_hazard cmdPtr: 0x16b96490
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: check_rdc cmdPtr: 0x16b85980
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: finish_distributed_run cmdPtr: 0x30995800
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: sync_active_scenarios cmdPtr: 0x316c4d48
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: write_abstract_model cmdPtr: 0x315a2000
+2025-01-27 17:48:22:1737980302960 | INFO  | registerSyncPoint: write_constr_abstract_model cmdPtr: 0x16b9e000
+2025-01-27 17:51:13:1737980473254 | INFO  | MultiModeEnabled: 0 dbMerged: 0 Child: 0
+2025-01-27 17:51:13:1737980473255 | INFO  | exitChilds

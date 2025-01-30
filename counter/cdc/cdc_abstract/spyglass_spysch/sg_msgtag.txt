@@ -1,0 +1,30 @@
+-1 "STX_VE_492" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "STX_VE_589" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "STX_VE_602" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_126" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "checkCMD_dirfile03" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "checkCMD_ignore01" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"

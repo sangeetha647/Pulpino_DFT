@@ -1,0 +1,4 @@
+#!/bin/csh -f
+\rm -rf *Log*  *.log simv* csrc *.chain *.lock work.lib++ ucli.key 
+
+

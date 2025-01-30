@@ -1,0 +1,483 @@
+verdiSetActWin -dock widgetDock_<Watch>
+simSetSimulator "-vcssv" -exec "/home/nitintyagi/pulpino/verif/simv" -args \
+           "-sml=verdi +UVM_VERDI_TRACE=UVM_AWARE -ucli2Proc -ucli"
+debImport "-dbdir" "/home/nitintyagi/pulpino/verif/simv.daidir"
+debLoadSimResult /home/nitintyagi/pulpino/verif/inter.fsdb
+wvCreateWindow
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "0" "32" "1920" "1011"
+verdiWindowResize -win $_Verdi_1 "0" "32" "1920" "1011"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "pulpino.pulpino_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "pulpino.pulpino_i" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope "pulpino.pulpino_i"
+verdiSetActWin -win $_nSchema_3
+schSetOptions -win $_nSchema3 -portName on
+schSetOptions -win $_nSchema3 -pinName on
+schSetOptions -win $_nSchema3 -instName on
+schSetOptions -win $_nSchema3 -completeName on
+schSetOptions -win $_nSchema3 -localNetName on
+verdiDockWidgetMaximize -dock windowDock_nSchema_3
+schZoomIn -win $_nSchema3 -pos 7257 5242
+schZoomIn -win $_nSchema3 -pos 7256 5242
+schZoomIn -win $_nSchema3 -pos 7255 5241
+schZoomIn -win $_nSchema3 -pos 7255 5241
+schZoomIn -win $_nSchema3 -pos 7255 5241
+schZoomIn -win $_nSchema3 -pos 7254 5241
+schZoomOut -win $_nSchema3 -pos 8472 -1508
+schZoomOut -win $_nSchema3 -pos 8472 -1508
+schZoomOut -win $_nSchema3 -pos 8472 -1508
+schZoomOut -win $_nSchema3 -pos 8472 -1509
+schZoomOut -win $_nSchema3 -pos 2613 29226
+schZoomOut -win $_nSchema3 -pos 2613 29226
+schZoomIn -win $_nSchema3 -pos 32232 30236
+schZoomIn -win $_nSchema3 -pos 32231 30236
+schZoomIn -win $_nSchema3 -pos 30262 30689
+schZoomIn -win $_nSchema3 -pos 30262 30690
+schZoomIn -win $_nSchema3 -pos 30261 30711
+schZoomOut -win $_nSchema3 -pos 30053 30823
+schZoomOut -win $_nSchema3 -pos 30053 30822
+schZoomOut -win $_nSchema3 -pos 30028 30822
+schZoomOut -win $_nSchema3 -pos 30028 30822
+schZoomOut -win $_nSchema3 -pos 30027 30821
+schZoomOut -win $_nSchema3 -pos 30027 30821
+schZoomIn -win $_nSchema3 -pos 3640 28322
+schZoomIn -win $_nSchema3 -pos 3639 28368
+schZoomIn -win $_nSchema3 -pos 3638 28402
+schZoomIn -win $_nSchema3 -pos 3638 28402
+schZoomOut -win $_nSchema3 -pos 3618 29502
+schZoomOut -win $_nSchema3 -pos 3618 29501
+schZoomOut -win $_nSchema3 -pos 3618 35981
+schZoomOut -win $_nSchema3 -pos 3618 35981
+schZoomOut -win $_nSchema3 -pos 3618 35980
+schZoomOut -win $_nSchema3 -pos 3618 35980
+schZoomOut -win $_nSchema3 -pos 3619 35979
+schZoomOut -win $_nSchema3 -pos 3620 35978
+schZoomIn -win $_nSchema3 -pos 71080 7937
+schZoomIn -win $_nSchema3 -pos 70994 7936
+schZoomIn -win $_nSchema3 -pos 70993 7936
+schZoomIn -win $_nSchema3 -pos 70993 7935
+schZoomIn -win $_nSchema3 -pos 70992 7935
+schZoomIn -win $_nSchema3 -pos 67965 10116
+schZoomIn -win $_nSchema3 -pos 67944 10115
+schZoomOut -win $_nSchema3 -pos 65474 9900
+verdiFindBar -show -win nSchema_3
+verdiFindBar -pattern "*axi*" -next -win nSchema_3
+verdiFindBar -hide -widget MTB_SOURCE_TAB_1
+verdiFindBar -hide -win nWave_2
+verdiDockWidgetRestore -dock windowDock_nSchema_3
+verdiDockWidgetHide -dock widgetDock_<Member>
+srcTBSetHiddenView -view MemberView
+verdiDockWidgetHide -dock widgetDock_<Local>
+srcTBSetHiddenView -view LocalView
+srcSignalView -on
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcHBSelect "pulpino.pulpino_i.axi_interconnect_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i.axi_interconnect_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i.axi_interconnect_i" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcSignalViewSetFilter "*axi*"
+srcHBSelect "pulpino.pulpino_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "pulpino.pulpino_i.peripherals_i.axi2apb_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i.peripherals_i.axi2apb_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i.peripherals_i.axi2apb_i" -win $_nTrace1
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiSetActWin -win $_nSchema_3
+schZoomOut -win $_nSchema3 -pos 65732 6934
+schZoomOut -win $_nSchema3 -pos 65731 6933
+schZoomOut -win $_nSchema3 -pos 65731 6933
+schZoomOut -win $_nSchema3 -pos 65731 6933
+schZoomOut -win $_nSchema3 -pos 65731 6932
+schZoomOut -win $_nSchema3 -pos 65731 6933
+schSelect -win $_nSchema3 -inst "peripherals_i"
+schPushViewIn -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos 31751 100443
+schZoomIn -win $_nSchema3 -pos 31751 100443
+schZoomIn -win $_nSchema3 -pos 31563 100443
+schZoomIn -win $_nSchema3 -pos 31563 100443
+schZoomIn -win $_nSchema3 -pos 31351 99598
+schZoomIn -win $_nSchema3 -pos 31272 99598
+srcSignalView -off
+verdiDockWidgetMaximize -dock windowDock_nSchema_3
+schZoomOut -win $_nSchema3 -pos 30313 101014
+schZoomOut -win $_nSchema3 -pos 30313 101013
+schZoomOut -win $_nSchema3 -pos 30313 101013
+srcSignalView -on
+verdiFindBar -hide -widget MTB_SOURCE_TAB_1
+srcSignalView -off
+srcSignalView -on
+verdiFindBar -hide -win nWave_2
+verdiDockWidgetRestore -dock windowDock_nSchema_3
+srcHBSelect "pulpino.pulpino_i.peripherals_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i.peripherals_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i.peripherals_i" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiSetActWin -win $_nSchema_3
+srcHBDrag -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+schSetScope -win $_nSchema3 -scope "pulpino.pulpino_i.peripherals_i"
+srcSignalView -off
+verdiDockWidgetMaximize -dock windowDock_nSchema_3
+verdiSetActWin -win $_nSchema_3
+schPopViewUp -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos 10699 34150
+schZoomIn -win $_nSchema3 -pos 10699 34150
+schZoomIn -win $_nSchema3 -pos 10697 34150
+schZoomIn -win $_nSchema3 -pos 10697 34149
+schZoomIn -win $_nSchema3 -pos 10697 34149
+schZoomIn -win $_nSchema3 -pos 10673 34149
+schZoomOut -win $_nSchema3 -pos 17383 31002
+schSelect -win $_nSchema3 -signal "spi_clk_i"
+schSelect -win $_nSchema3 -toggle -signal "clk_int"
+schZoomOut -win $_nSchema3 -pos 23984 13971
+schZoomOut -win $_nSchema3 -pos 23983 13885
+schZoomOut -win $_nSchema3 -pos 23983 13708
+schZoomOut -win $_nSchema3 -pos 23983 13708
+schZoomIn -win $_nSchema3 -pos -356 36298
+schZoomIn -win $_nSchema3 -pos -356 36298
+schZoomIn -win $_nSchema3 -pos -357 36298
+schDeselectAll -win $_nSchema3
+schSelect -win $_nSchema3 -signal "spi_clk_i"
+schSelect -win $_nSchema3 -toggle -signal "clk_int"
+schZoomOut -win $_nSchema3 -pos 3182 35273
+schZoomOut -win $_nSchema3 -pos 3182 35273
+schZoomOut -win $_nSchema3 -pos 3182 35272
+schZoomOut -win $_nSchema3 -pos 3181 35273
+schZoomOut -win $_nSchema3 -pos 32965 35262
+schZoomOut -win $_nSchema3 -pos 32894 35261
+schZoomOut -win $_nSchema3 -pos 32893 35261
+schZoomIn -win $_nSchema3 -pos 88513 10172
+schZoomIn -win $_nSchema3 -pos 88429 10171
+schZoomIn -win $_nSchema3 -pos 88429 10171
+schZoomIn -win $_nSchema3 -pos 88383 10170
+schZoomIn -win $_nSchema3 -pos 88382 10170
+schZoomIn -win $_nSchema3 -pos 75710 12277
+schZoomIn -win $_nSchema3 -pos 75710 12277
+schZoomOut -win $_nSchema3 -pos 75280 13135
+schZoomOut -win $_nSchema3 -pos 75279 13136
+schZoomOut -win $_nSchema3 -pos 75279 13112
+schZoomOut -win $_nSchema3 -pos 75278 13112
+schZoomOut -win $_nSchema3 -pos 75277 13112
+schZoomOut -win $_nSchema3 -pos 75277 13066
+schZoomIn -win $_nSchema3 -pos 74938 10805
+schZoomIn -win $_nSchema3 -pos 74938 10805
+schZoomIn -win $_nSchema3 -pos 74938 10804
+schZoomIn -win $_nSchema3 -pos 74938 10803
+schZoomOut -win $_nSchema3 -pos 80053 12216
+schZoomOut -win $_nSchema3 -pos 80030 12171
+schZoomOut -win $_nSchema3 -pos 80029 12143
+schZoomOut -win $_nSchema3 -pos 80029 12143
+schZoomOut -win $_nSchema3 -pos 80029 12142
+schZoomOut -win $_nSchema3 -pos 80028 12142
+schZoomOut -win $_nSchema3 -pos 80028 12141
+schZoomOut -win $_nSchema3 -pos 80027 12141
+schZoomOut -win $_nSchema3 -pos 80026 12141
+schZoomOut -win $_nSchema3 -pos 80026 12141
+schZoomOut -win $_nSchema3 -pos 80026 12140
+schZoomIn -win $_nSchema3 -pos 2577 34208
+schZoomIn -win $_nSchema3 -pos 2577 34208
+schZoomIn -win $_nSchema3 -pos 2577 34207
+schZoomIn -win $_nSchema3 -pos 2577 34207
+schZoomIn -win $_nSchema3 -pos 3103 35853
+schZoomIn -win $_nSchema3 -pos 3103 35852
+schZoomIn -win $_nSchema3 -pos 3103 35889
+schZoomIn -win $_nSchema3 -pos 3103 35889
+schZoomOut -win $_nSchema3 -pos 9188 33200
+schZoomOut -win $_nSchema3 -pos 9188 33200
+schZoomOut -win $_nSchema3 -pos 9024 36981
+schZoomOut -win $_nSchema3 -pos 9023 36899
+schZoomOut -win $_nSchema3 -pos 8921 36797
+schZoomOut -win $_nSchema3 -pos 8920 36733
+schZoomOut -win $_nSchema3 -pos 8840 36652
+schZoomOut -win $_nSchema3 -pos 8839 36652
+schZoomOut -win $_nSchema3 -pos 8839 36652
+schZoomOut -win $_nSchema3 -pos 8839 36651
+schZoomOut -win $_nSchema3 -pos 8838 36650
+schZoomIn -win $_nSchema3 -pos 30916 34467
+schZoomIn -win $_nSchema3 -pos 30917 34466
+schZoomIn -win $_nSchema3 -pos 30781 34603
+schZoomIn -win $_nSchema3 -pos 30781 34602
+schZoomIn -win $_nSchema3 -pos 30781 34602
+schZoomIn -win $_nSchema3 -pos 30781 34602
+schZoomIn -win $_nSchema3 -pos 30737 34645
+schZoomIn -win $_nSchema3 -pos 30737 34644
+schZoomIn -win $_nSchema3 -pos 30737 34644
+schZoomIn -win $_nSchema3 -pos 30737 34643
+schZoomIn -win $_nSchema3 -pos 30737 34644
+schZoomOut -win $_nSchema3 -pos 30296 35709
+schZoomOut -win $_nSchema3 -pos 30296 35709
+schZoomOut -win $_nSchema3 -pos 30295 35708
+schZoomOut -win $_nSchema3 -pos 30294 35708
+schZoomOut -win $_nSchema3 -pos 30293 35708
+schSelect -win $_nSchema3 -inst "peripherals_i"
+schPushViewIn -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos -355 21471
+schZoomIn -win $_nSchema3 -pos -355 21471
+schZoomIn -win $_nSchema3 -pos -356 21471
+schZoomIn -win $_nSchema3 -pos -358 21471
+schZoomIn -win $_nSchema3 -pos -358 21470
+schZoomOut -win $_nSchema3 -pos -359 21471
+schZoomOut -win $_nSchema3 -pos -358 21470
+schZoomOut -win $_nSchema3 -pos -358 21471
+schZoomOut -win $_nSchema3 -pos -358 21470
+schZoomOut -win $_nSchema3 -pos -358 21469
+schZoomOut -win $_nSchema3 -pos -358 21469
+schZoomOut -win $_nSchema3 -pos -358 21469
+schZoomOut -win $_nSchema3 -pos -358 21469
+schZoomOut -win $_nSchema3 -pos -357 21469
+schZoomIn -win $_nSchema3 -pos 36523 48345
+schZoomIn -win $_nSchema3 -pos 36523 48345
+schZoomIn -win $_nSchema3 -pos 36523 48345
+schZoomOut -win $_nSchema3 -pos 36386 120868
+schZoomOut -win $_nSchema3 -pos 36386 120867
+schZoomOut -win $_nSchema3 -pos 36385 120867
+schZoomOut -win $_nSchema3 -pos 36386 120867
+schZoomIn -win $_nSchema3 -pos 36274 19894
+schZoomIn -win $_nSchema3 -pos 36190 19893
+schZoomIn -win $_nSchema3 -pos 36189 19893
+schZoomIn -win $_nSchema3 -pos 36189 19893
+schZoomOut -win $_nSchema3 -pos 35308 97
+schZoomOut -win $_nSchema3 -pos 35308 96
+schZoomOut -win $_nSchema3 -pos 35308 96
+schZoomIn -win $_nSchema3 -pos 14105 62028
+schZoomIn -win $_nSchema3 -pos 14105 62027
+schZoomOut -win $_nSchema3 -pos 34162 118934
+schZoomOut -win $_nSchema3 -pos 34162 118837
+schZoomIn -win $_nSchema3 -pos 20610 113634
+schZoomIn -win $_nSchema3 -pos 20564 113678
+schZoomIn -win $_nSchema3 -pos 20564 113678
+schZoomIn -win $_nSchema3 -pos 20563 113678
+schZoomIn -win $_nSchema3 -pos 20563 113678
+schZoomOut -win $_nSchema3 -pos 20922 111453
+schZoomOut -win $_nSchema3 -pos 20922 111453
+schZoomOut -win $_nSchema3 -pos 20921 111452
+schZoomOut -win $_nSchema3 -pos 15874 108339
+schSelect -win $_nSchema3 -signal "spi_clk_i"
+schZoomIn -win $_nSchema3 -pos 732 124038
+schZoomIn -win $_nSchema3 -pos 731 124038
+schZoomIn -win $_nSchema3 -pos 731 124057
+schZoomIn -win $_nSchema3 -pos 731 124056
+schZoomIn -win $_nSchema3 -pos 731 124057
+schZoomOut -win $_nSchema3 -pos 829 123599
+schSelect -win $_nSchema3 -toggle -signal "clk_i"
+schZoomOut -win $_nSchema3 -pos 3169 122745
+schZoomOut -win $_nSchema3 -pos 3169 122719
+schZoomOut -win $_nSchema3 -pos 3169 122687
+schZoomOut -win $_nSchema3 -pos 3170 122687
+schZoomOut -win $_nSchema3 -pos 3169 122687
+schZoomOut -win $_nSchema3 -pos 3169 122687
+schZoomOut -win $_nSchema3 -pos 3170 122686
+schZoomIn -win $_nSchema3 -pos 3119 122588
+schZoomIn -win $_nSchema3 -pos 3119 122587
+schZoomIn -win $_nSchema3 -pos 3118 122587
+schZoomIn -win $_nSchema3 -pos 3118 122587
+schZoomIn -win $_nSchema3 -pos 3117 122587
+schZoomOut -win $_nSchema3 -pos 3105 122587
+schZoomOut -win $_nSchema3 -pos 3106 122587
+schZoomOut -win $_nSchema3 -pos 3105 122586
+schZoomOut -win $_nSchema3 -pos 3105 122585
+schZoomOut -win $_nSchema3 -pos 3106 122585
+schZoomOut -win $_nSchema3 -pos 3106 122585
+schZoomOut -win $_nSchema3 -pos 2118 99403
+schZoomOut -win $_nSchema3 -pos 2119 99402
+schZoomOut -win $_nSchema3 -pos 2119 99402
+schZoomOut -win $_nSchema3 -pos 2118 99401
+schZoomOut -win $_nSchema3 -pos 2119 99401
+schZoomIn -win $_nSchema3 -pos 1571 118848
+schZoomIn -win $_nSchema3 -pos 1569 118847
+schZoomIn -win $_nSchema3 -pos 1492 118847
+schZoomIn -win $_nSchema3 -pos 1434 118847
+schZoomIn -win $_nSchema3 -pos -1167 122703
+schZoomIn -win $_nSchema3 -pos -1167 122703
+schZoomIn -win $_nSchema3 -pos -1192 122703
+schZoomIn -win $_nSchema3 -pos -1211 122720
+schZoomIn -win $_nSchema3 -pos -1211 122720
+schZoomIn -win $_nSchema3 -pos -1222 122720
+schSelect -win $_nSchema3 -port "clk_i"
+schPopViewUp -win $_nSchema3
+schSelect -win $_nSchema3 -signal "clk"
+schZoomOut -win $_nSchema3 -pos 1977 40428
+schZoomOut -win $_nSchema3 -pos 1899 40073
+schZoomOut -win $_nSchema3 -pos 1899 40072
+schZoomOut -win $_nSchema3 -pos 1899 40011
+schZoomIn -win $_nSchema3 -pos 66965 14860
+schZoomIn -win $_nSchema3 -pos 66906 14860
+schZoomIn -win $_nSchema3 -pos 66906 14860
+schZoomIn -win $_nSchema3 -pos 66905 14860
+schZoomIn -win $_nSchema3 -pos 66905 14860
+schZoomOut -win $_nSchema3 -pos 66887 15589
+schZoomOut -win $_nSchema3 -pos 66886 15589
+schZoomOut -win $_nSchema3 -pos 66886 15588
+schZoomOut -win $_nSchema3 -pos 66885 15588
+schZoomIn -win $_nSchema3 -pos 85108 22717
+schZoomIn -win $_nSchema3 -pos 85108 22717
+schZoomIn -win $_nSchema3 -pos 85083 22716
+schZoomIn -win $_nSchema3 -pos 85082 22735
+schSelect -win $_nSchema3 -signal "rst"
+schFocusConnection -win $_nSchema3
+schZoomOut -win $_nSchema3 -pos 79810 21015
+schZoomOut -win $_nSchema3 -pos 79792 20997
+schZoomOut -win $_nSchema3 -pos 79770 20975
+schZoomOut -win $_nSchema3 -pos 79769 20947
+schZoomOut -win $_nSchema3 -pos 79768 20946
+schZoomOut -win $_nSchema3 -pos 79767 20946
+schZoomOut -win $_nSchema3 -pos 79766 20946
+schZoomOut -win $_nSchema3 -pos 79766 20945
+schZoomOut -win $_nSchema3 -pos 79765 20944
+schSelect -win $_nSchema3 -toggle -signal "clk"
+schZoomIn -win $_nSchema3 -pos 2048 43629
+schZoomIn -win $_nSchema3 -pos 1811 43707
+schZoomIn -win $_nSchema3 -pos 1752 43707
+schZoomIn -win $_nSchema3 -pos 1441 43618
+schZoomIn -win $_nSchema3 -pos 1308 43485
+schZoomIn -win $_nSchema3 -pos 1283 43435
+schZoomIn -win $_nSchema3 -pos 1283 43434
+schZoomIn -win $_nSchema3 -pos 1282 43434
+schZoomIn -win $_nSchema3 -pos 1281 43434
+schSelect -win $_nSchema3 -toggle -signal "testmode_i"
+schZoomOut -win $_nSchema3 -pos 2385 40139
+schZoomOut -win $_nSchema3 -pos 2385 40138
+schZoomOut -win $_nSchema3 -pos 2385 40138
+schZoomOut -win $_nSchema3 -pos 2385 40138
+schZoomOut -win $_nSchema3 -pos 2385 40138
+schZoomOut -win $_nSchema3 -pos 2410 40137
+schZoomOut -win $_nSchema3 -pos 2409 40137
+schZoomOut -win $_nSchema3 -pos 2409 40137
+schZoomIn -win $_nSchema3 -pos 11246 10028
+schZoomIn -win $_nSchema3 -pos 11247 10028
+schZoomIn -win $_nSchema3 -pos 11246 10054
+schZoomIn -win $_nSchema3 -pos 11246 10054
+schZoomIn -win $_nSchema3 -pos 11246 10054
+schZoomIn -win $_nSchema3 -pos 11245 10053
+schSelect -win $_nSchema3 -instport "core_region_i" "testmode_i"
+schPushViewIn -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos 4262 37668
+schZoomIn -win $_nSchema3 -pos 4262 37764
+schZoomIn -win $_nSchema3 -pos 4261 37763
+schZoomIn -win $_nSchema3 -pos 4261 37763
+schZoomIn -win $_nSchema3 -pos 4260 37763
+schZoomIn -win $_nSchema3 -pos 4260 37793
+schSelect -win $_nSchema3 -instport "data_mem_axi_if" "test_en_i"
+schPushViewIn -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos 3254 39707
+schZoomIn -win $_nSchema3 -pos 3254 39707
+schZoomIn -win $_nSchema3 -pos 3253 39707
+schZoomIn -win $_nSchema3 -pos 3253 39730
+schZoomIn -win $_nSchema3 -pos 3253 39730
+schSelect -win $_nSchema3 -instport "axi_mem_if_SP_i" "test_en_i"
+schPushViewIn -win $_nSchema3
+schZoomIn -win $_nSchema3 -pos -1088 26635
+schZoomIn -win $_nSchema3 -pos -1089 26713
+schZoomIn -win $_nSchema3 -pos -1089 26713
+schZoomIn -win $_nSchema3 -pos -1090 26801
+schZoomOut -win $_nSchema3 -pos -1090 26768
+schZoomOut -win $_nSchema3 -pos -1090 26768
+schZoomOut -win $_nSchema3 -pos -1090 26768
+schZoomOut -win $_nSchema3 -pos -1090 26767
+schZoomOut -win $_nSchema3 -pos -1090 26767
+schZoomIn -win $_nSchema3 -pos 103177 45396
+schZoomIn -win $_nSchema3 -pos 103102 45471
+schZoomIn -win $_nSchema3 -pos 102988 45528
+schZoomIn -win $_nSchema3 -pos 102947 45528
+schZoomIn -win $_nSchema3 -pos 102884 45527
+schZoomIn -win $_nSchema3 -pos 102313 45265
+schZoomIn -win $_nSchema3 -pos 102259 45282
+schSelect -win $_nSchema3 -instport "Slave_w_buffer_LP" "test_en_i"
+schPushViewIn -win $_nSchema3
+schZoomOut -win $_nSchema3 -pos 9274 5957
+schZoomOut -win $_nSchema3 -pos 9274 5957
+schZoomOut -win $_nSchema3 -pos 9274 5936
+schZoomIn -win $_nSchema3 -pos 10248 481
+schZoomIn -win $_nSchema3 -pos 10247 502
+schZoomIn -win $_nSchema3 -pos 10247 502
+schZoomIn -win $_nSchema3 -pos 10247 513
+schSelect -win $_nSchema3 -instport "buffer_i" "test_mode_i"
+schPushViewIn -win $_nSchema3
+srcSignalView -on
+verdiFindBar -hide -widget MTB_SOURCE_TAB_1
+srcSignalView -off
+srcSignalView -on
+verdiFindBar -hide -win nWave_2
+verdiDockWidgetRestore -dock windowDock_nSchema_3
+srcHBSelect "pulpino.pulpino_i.peripherals_i.axi2apb_i" -win $_nTrace1
+srcSetScope "pulpino.pulpino_i.peripherals_i.axi2apb_i" -delim "." -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i.peripherals_i.axi2apb_i" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk_i" -line 22 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk_i" -line 22 -pos 1 -win $_nTrace1
+srcAction -pos 21 5 3 -win $_nTrace1 -name "clk_i" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "pulpino.pulpino_i.peripherals_i.axi2apb_i" -win $_nTrace1
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_3
+verdiSetActWin -win $_nSchema_3
+srcHBDrag -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+schSetScope -win $_nSchema3 -scope "pulpino.pulpino_i.peripherals_i.axi2apb_i"
+srcSignalView -off
+verdiDockWidgetMaximize -dock windowDock_nSchema_3
+verdiSetActWin -win $_nSchema_3
+schZoomIn -win $_nSchema3 -pos 599 32530
+schZoomIn -win $_nSchema3 -pos 426 32573
+schZoomIn -win $_nSchema3 -pos 425 32573
+schZoomIn -win $_nSchema3 -pos 425 32573
+schZoomIn -win $_nSchema3 -pos 424 32573
+schZoomIn -win $_nSchema3 -pos 424 32573
+schZoomOut -win $_nSchema3 -pos 1734 32173
+schZoomOut -win $_nSchema3 -pos 1734 32174
+schZoomOut -win $_nSchema3 -pos 1733 32173
+schZoomOut -win $_nSchema3 -pos 1733 32173
+schZoomOut -win $_nSchema3 -pos 1733 32173
+schZoomOut -win $_nSchema3 -pos 1733 32172
+schZoomIn -win $_nSchema3 -pos -219 43326
+schZoomIn -win $_nSchema3 -pos -219 43326
+schZoomIn -win $_nSchema3 -pos -219 43326
+schSelect -win $_nSchema3 -port "clk_i"
+schPopViewUp -win $_nSchema3
+schZoomOut -win $_nSchema3 -pos 2229 122619
+schSelect -win $_nSchema3 -port "clk_i"
+schPopViewUp -win $_nSchema3
+schZoomOut -win $_nSchema3 -pos 7530 11918
+schZoomOut -win $_nSchema3 -pos 7531 11917
+schZoomOut -win $_nSchema3 -pos 7531 11917
+schZoomOut -win $_nSchema3 -pos 7531 11918
+schZoomOut -win $_nSchema3 -pos 7531 11918
+schZoomOut -win $_nSchema3 -pos 7532 11917
+schZoomOut -win $_nSchema3 -pos 7532 11917
+schZoomOut -win $_nSchema3 -pos 7531 11916
+schZoomOut -win $_nSchema3 -pos 7532 11915
+schZoomOut -win $_nSchema3 -pos 7532 11915
+schZoomOut -win $_nSchema3 -pos 7532 11915
+schZoomOut -win $_nSchema3 -pos 7532 11914
+schZoomOut -win $_nSchema3 -pos 7532 11913
+schZoomIn -win $_nSchema3 -pos 17078 42419
+schZoomIn -win $_nSchema3 -pos 17077 42418
+schZoomIn -win $_nSchema3 -pos 17077 42419
+schZoomIn -win $_nSchema3 -pos 17077 42418
+schZoomIn -win $_nSchema3 -pos 6431 41032
+schZoomIn -win $_nSchema3 -pos 6430 41069
+schZoomIn -win $_nSchema3 -pos 6930 42433
+schZoomIn -win $_nSchema3 -pos 6930 42453
+schZoomIn -win $_nSchema3 -pos 6930 42453
+schZoomOut -win $_nSchema3 -pos 6930 42453
+schZoomOut -win $_nSchema3 -pos 6930 42453
+schZoomOut -win $_nSchema3 -pos 6930 42452
+srcSignalView -on
+verdiFindBar -hide -widget MTB_SOURCE_TAB_1
+srcSignalView -off
+srcSignalView -on
+verdiFindBar -hide -win nWave_2
+verdiDockWidgetRestore -dock windowDock_nSchema_3
+verdiFindBar -hide
+verdiFindBar -hide
+debExit

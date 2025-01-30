@@ -1,0 +1,4 @@
+17:48:22 : gui:vlsi:44753
+17:48:27 : start_gui
+17:48:28 : set_app_var default_waiver_file vcst_rtdb/reports/waiver.tcl
+17:51:13 : exit

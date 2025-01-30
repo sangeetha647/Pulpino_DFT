@@ -1,0 +1,193 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
++incdir         rtl/components    CmdLine -                              -
+                rtl/includes      CmdLine -                              -
+                rtl               CmdLine -                              -
+--goal_info     Design_Read@      CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 40
+-batch          <ON>              CmdLine -                              -
+-enableSV09     <ON>              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 30
+-lib            WORK=>./counter/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         none              CmdFile $SPYGLASS_HOME/auxi/policy_data/spyglass/design_read/Design_Read-mixed.spq 1
+-projectwdir    ./counter         CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       Design_Read       CmdLine -                              -
+-templatedir    /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read CmdLine -                              -
+-wdir           ./counter/Design_Read CmdLine -                              -
+<design_files>  rtl/adbg_axi_biu.sv APICall -                              -
+                rtl/adbg_axi_defines.v APICall -                              -
+                rtl/adbg_axi_module.sv APICall -                              -
+                rtl/adbg_crc32.sv APICall -                              -
+                rtl/adbg_defines.v APICall -                              -
+                rtl/adbg_or1k_biu.sv APICall -                              -
+                rtl/adbg_or1k_defines.v APICall -                              -
+                rtl/adbg_or1k_module.sv APICall -                              -
+                rtl/adbg_or1k_status_reg.sv APICall -                              -
+                rtl/adbg_tap_defines.v APICall -                              -
+                rtl/adbg_tap_top.sv APICall -                              -
+                rtl/adbg_top.sv   APICall -                              -
+                rtl/adv_dbg_if.sv APICall -                              -
+                rtl/apb2per.sv    APICall -                              -
+                rtl/apb_bus.sv    APICall -                              -
+                rtl/apb_event_unit.sv APICall -                              -
+                rtl/apb_fll_if.sv APICall -                              -
+                rtl/apb_gpio.sv   APICall -                              -
+                rtl/apb_i2c.sv    APICall -                              -
+                rtl/apb_mock_uart.sv APICall -                              -
+                rtl/apb_node.sv   APICall -                              -
+                rtl/apb_node_wrap.sv APICall -                              -
+                rtl/apb_pulpino.sv APICall -                              -
+                rtl/apb_spi_master.sv APICall -                              -
+                rtl/apb_timer.sv  APICall -                              -
+                rtl/apb_uart_sv.sv APICall -                              -
+                rtl/apu_core_package.sv APICall -                              -
+                rtl/apu_defines.sv APICall -                              -
+                rtl/apu_macros.sv APICall -                              -
+                rtl/axi2apb.sv    APICall -                              -
+                rtl/axi2apb_wrap.sv APICall -                              -
+                rtl/axi_AR_allocator.sv APICall -                              -
+                rtl/axi_AW_allocator.sv APICall -                              -
+                rtl/axi_ArbitrationTree.sv APICall -                              -
+                rtl/axi_BR_allocator.sv APICall -                              -
+                rtl/axi_BW_allocator.sv APICall -                              -
+                rtl/axi_DW_allocator.sv APICall -                              -
+                rtl/axi_FanInPrimitive_Req.sv APICall -                              -
+                rtl/axi_RR_Flag_Req.sv APICall -                              -
+                rtl/axi_address_decoder_AR.sv APICall -                              -
+                rtl/axi_address_decoder_AW.sv APICall -                              -
+                rtl/axi_address_decoder_BR.sv APICall -                              -
+                rtl/axi_address_decoder_BW.sv APICall -                              -
+                rtl/axi_address_decoder_DW.sv APICall -                              -
+                rtl/axi_ar_buffer.sv APICall -                              -
+                rtl/axi_aw_buffer.sv APICall -                              -
+                rtl/axi_b_buffer.sv APICall -                              -
+                rtl/axi_bus.sv    APICall -                              -
+                rtl/axi_mem_if_SP.sv APICall -                              -
+                rtl/axi_mem_if_SP_wrap.sv APICall -                              -
+                rtl/axi_multiplexer.sv APICall -                              -
+                rtl/axi_node.sv   APICall -                              -
+                rtl/axi_node_intf_wrap.sv APICall -                              -
+                rtl/axi_pkg.sv    APICall -                              -
+                rtl/axi_r_buffer.sv APICall -                              -
+                rtl/axi_read_only_ctrl.sv APICall -                              -
+                rtl/axi_request_block.sv APICall -                              -
+                rtl/axi_response_block.sv APICall -                              -
+                rtl/axi_single_slice.sv APICall -                              -
+                rtl/axi_slice.sv  APICall -                              -
+                rtl/axi_slice_wrap.sv APICall -                              -
+                rtl/axi_spi_slave.sv APICall -                              -
+                rtl/axi_spi_slave_wrap.sv APICall -                              -
+                rtl/axi_w_buffer.sv APICall -                              -
+                rtl/axi_write_only_ctrl.sv APICall -                              -
+                rtl/boot_code.sv  APICall -                              -
+                rtl/boot_rom_wrap.sv APICall -                              -
+                rtl/cf_math_pkg.sv APICall -                              -
+                rtl/clk_rst_gen.sv APICall -                              -
+                rtl/cluster_clock_gating.sv APICall -                              -
+                rtl/cluster_clock_inverter.sv APICall -                              -
+                rtl/cluster_clock_mux2.sv APICall -                              -
+                rtl/config.sv     APICall -                              -
+                rtl/core2axi.sv   APICall -                              -
+                rtl/core2axi_wrap.sv APICall -                              -
+                rtl/core_region.sv APICall -                              -
+                rtl/dc_data_buffer.sv APICall -                              -
+                rtl/dc_full_detector.v APICall -                              -
+                rtl/dc_synchronizer.v APICall -                              -
+                rtl/dc_token_ring.v APICall -                              -
+                rtl/dc_token_ring_fifo_din.v APICall -                              -
+                rtl/dc_token_ring_fifo_dout.v APICall -                              -
+                rtl/debug_bus.sv  APICall -                              -
+                rtl/defines_event_unit.sv APICall -                              -
+                rtl/dp_ram.sv     APICall -                              -
+                rtl/dp_ram_wrap.sv APICall -                              -
+                rtl/fifo_v2.sv    APICall -                              -
+                rtl/fifo_v3.sv    APICall -                              -
+                rtl/fpnew_pkg.sv  APICall -                              -
+                rtl/generic_fifo.sv APICall -                              -
+                rtl/generic_service_unit.sv APICall -                              -
+                rtl/i2c_master_bit_ctrl.sv APICall -                              -
+                rtl/i2c_master_byte_ctrl.sv APICall -                              -
+                rtl/i2c_master_defines.sv APICall -                              -
+                rtl/instr_ram_wrap.sv APICall -                              -
+                rtl/io_generic_fifo.sv APICall -                              -
+                rtl/onehot_to_bin.sv APICall -                              -
+                rtl/periph_bus_wrap.sv APICall -                              -
+                rtl/peripherals.sv APICall -                              -
+                rtl/pulp_clock_gating.sv APICall -                              -
+                rtl/pulp_clock_inverter.sv APICall -                              -
+                rtl/pulp_clock_mux2.sv APICall -                              -
+                rtl/pulpino_top.sv APICall -                              -
+                rtl/pulpino_wrap.v APICall -                              -
+                rtl/ram_mux.sv    APICall -                              -
+                rtl/random_stalls.sv APICall -                              -
+                rtl/register_file_test_wrap.sv APICall -                              -
+                rtl/risc_mult.sv  APICall -                              -
+                rtl/riscv_alu.sv  APICall -                              -
+                rtl/riscv_alu_div.sv APICall -                              -
+                rtl/riscv_compressed_decoder.sv APICall -                              -
+                rtl/riscv_config.sv APICall -                              -
+                rtl/riscv_controller.sv APICall -                              -
+                rtl/riscv_core.sv APICall -                              -
+                rtl/riscv_cs_registers.sv APICall -                              -
+                rtl/riscv_decoder.sv APICall -                              -
+                rtl/riscv_defines.v APICall -                              -
+                rtl/riscv_ex_stage.sv APICall -                              -
+                rtl/riscv_fetch_fifo.sv APICall -                              -
+                rtl/riscv_hwloop_controller.sv APICall -                              -
+                rtl/riscv_hwloop_regs.sv APICall -                              -
+                rtl/riscv_id_stage.sv APICall -                              -
+                rtl/riscv_if_stage.sv APICall -                              -
+                rtl/riscv_int_controller.sv APICall -                              -
+                rtl/riscv_load_store_unit.sv APICall -                              -
+                rtl/riscv_mult.sv APICall -                              -
+                rtl/riscv_prefetch_buffer.sv APICall -                              -
+                rtl/riscv_register_file.sv APICall -                              -
+                rtl/rstgen.sv     APICall -                              -
+                rtl/sleep_unit.sv APICall -                              -
+                rtl/sp_ram.sv     APICall -                              -
+                rtl/sp_ram_wrap.sv APICall -                              -
+                rtl/spi_master_apb_if.sv APICall -                              -
+                rtl/spi_master_clkgen.sv APICall -                              -
+                rtl/spi_master_controller.sv APICall -                              -
+                rtl/spi_master_fifo.sv APICall -                              -
+                rtl/spi_master_rx.sv APICall -                              -
+                rtl/spi_master_tx.sv APICall -                              -
+                rtl/spi_slave_axi_plug.sv APICall -                              -
+                rtl/spi_slave_cmd_parser.sv APICall -                              -
+                rtl/spi_slave_controller.sv APICall -                              -
+                rtl/spi_slave_dc_fifo.sv APICall -                              -
+                rtl/spi_slave_regs.sv APICall -                              -
+                rtl/spi_slave_rx.sv APICall -                              -
+                rtl/spi_slave_syncro.sv APICall -                              -
+                rtl/spi_slave_tx.sv APICall -                              -
+                rtl/timer.sv      APICall -                              -
+                rtl/uart_interrupt.sv APICall -                              -
+                rtl/uart_rx.sv    APICall -                              -
+                rtl/uart_tx.sv    APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vW-2024.09 $SPYGLASS_HOME/policies/spyglass
+
+

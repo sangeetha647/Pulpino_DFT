@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-cc apb_fll_if.sv"
+S   7892640    29901  1721882708   475583668  1598506306           0 "/usr/bin/verilator_bin"
+S     13075    55018  1723022219   840864336  1723022219   840864336 "apb_fll_if.sv"
+T     38487    55057  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if.cpp"
+T      5821    55055  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if.h"
+T      1452    55059  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if.mk"
+T     35661    55056  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if__Slow.cpp"
+T       564    55053  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if__Syms.cpp"
+T       816    55054  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if__Syms.h"
+T       279    55060  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if__ver.d"
+T         0        0  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if__verFiles.dat"
+T      1566    55058  1723022454   490860981  1723022454   490860981 "obj_dir/Vapb_fll_if_classes.mk"

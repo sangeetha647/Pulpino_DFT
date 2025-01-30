@@ -1,0 +1,6 @@
+INPUT@@/home/nitintyagi/pulpino/spyglass-1/lint/lint_turbo_rtl/spyglass_reports@@/home/nitintyagi/pulpino/spyglass-1/html_reports/data_files/@@@@lint-lint_turbo_rtl@@
+COPY@@/home/nitintyagi/pulpino/spyglass-1/lint/lint_turbo_rtl/spyglass_reports/moresimple.rpt@@data_files/_lint-lint_turbo_rtl_moresimple.rpt@@
+COPY@@/home/nitintyagi/pulpino/spyglass-1/lint/lint_turbo_rtl/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/_lint-lint_turbo_rtl_no_msg_reporting_rules.rpt@@
+REGEN@@/home/nitintyagi/pulpino/spyglass-1/lint/lint_turbo_rtl/spyglass_reports/moresimple_turbo.rpt@@data_files/_lint-lint_turbo_rtl_moresimple_turbo.rpt.html@@
+PROCESS@@Audits@@area@@lowpower@@clock-reset@@const_intern1@@constraints@@dft@@dft_dsm@@power_est@@txv@@miscellaneous@@starc2002@@timing@@morelint@@latch@@lint@@simulation@@erc@@starc2005@@starc@@openmore@@SpyGlass
+COPY@@/home/nitintyagi/pulpino/spyglass-1/lint/lint_turbo_rtl/spyglass.log@@data_files/_lint-lint_turbo_rtl_spyglass.log@@

@@ -1,0 +1,2 @@
+Command Line: /home/synopsys/tools/verdi/W-2024.09/platform/LINUXAMD64/bin/Novas -ssf inter.fsdb
+uname(Linux vlsi 5.14.0-162.6.1.el9_1.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Nov 15 07:49:10 EST 2022 x86_64)

@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-cc apb2per.sv"
+S   7892640   147952  1723453678    53903457  1598506306           0 "/usr/bin/verilator_bin"
+S      5169   144563  1723443437   977609111  1723022219   840864400 "apb2per.sv"
+T      6576   144650  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per.cpp"
+T      3915   144580  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per.h"
+T      1437   144582  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per.mk"
+T     14268   144678  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per__Slow.cpp"
+T       549   144646  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per__Syms.cpp"
+T       795   144592  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per__Syms.h"
+T       252   144600  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per__ver.d"
+T         0        0  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per__verFiles.dat"
+T      1554   144684  1724404174   391073658  1724404174   391073658 "obj_dir/Vapb2per_classes.mk"

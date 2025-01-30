@@ -1,0 +1,729 @@
+SpyGlass run started at 11:40:09 AM on Jan 23 2025 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vW-2024.09
+Synopsys TestMAX(TM)
+SpyGlass Fault Analysis
+Last compiled on Aug 31 2024
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+
+Running SpyGlass 64-bit Executable: /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/obj/check.Linux4
+
+RULE-CHECKING IN MIXED MODE
+Loading Policy: spyglass (Version: SpyGlass_vW-2024.09) from path: /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+##build_id : W-2024.09
+##system   : Linux vlsi 5.14.0-162.6.1.el9_1.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Nov 15 07:49:10 EST 2022 x86_64
+##cwd      : /home/nitintyagi/pulpino
+##lang     : Verilog+VHDL
+##args     : -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -nl \
+             -wdir './counter/Design_Read' \
+             -lib WORK ./counter/WORK \
+             -mixed \
+             -batch \
+             +incdir+rtl/components+ \
+             +incdir+rtl/includes+ \
+             +incdir+rtl+ \
+             -policy='none' \
+             -enableSV \
+             -enableSV09 \
+             -projectwdir './counter' \
+             -templatedir '/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read' \
+             --goal_info 'Design_Read@' \
+             --template_info 'Design_Read' \
+             -64bit  \
+             rtl/adbg_axi_biu.sv \
+             rtl/adbg_axi_defines.v \
+             rtl/adbg_axi_module.sv \
+             rtl/adbg_crc32.sv \
+             rtl/adbg_defines.v \
+             rtl/adbg_or1k_biu.sv \
+             rtl/adbg_or1k_defines.v \
+             rtl/adbg_or1k_module.sv \
+             rtl/adbg_or1k_status_reg.sv \
+             rtl/adbg_tap_defines.v \
+             rtl/adbg_tap_top.sv \
+             rtl/adbg_top.sv \
+             rtl/adv_dbg_if.sv \
+             rtl/apb2per.sv \
+             rtl/apb_bus.sv \
+             rtl/apb_event_unit.sv \
+             rtl/apb_fll_if.sv \
+             rtl/apb_gpio.sv \
+             rtl/apb_i2c.sv \
+             rtl/apb_mock_uart.sv \
+             rtl/apb_node.sv \
+             rtl/apb_node_wrap.sv \
+             rtl/apb_pulpino.sv \
+             rtl/apb_spi_master.sv \
+             rtl/apb_timer.sv \
+             rtl/apb_uart_sv.sv \
+             rtl/apu_core_package.sv \
+             rtl/apu_defines.sv \
+             rtl/apu_macros.sv \
+             rtl/axi2apb.sv \
+             rtl/axi2apb_wrap.sv \
+             rtl/axi_address_decoder_AR.sv \
+             rtl/axi_address_decoder_AW.sv \
+             rtl/axi_address_decoder_BR.sv \
+             rtl/axi_address_decoder_BW.sv \
+             rtl/axi_address_decoder_DW.sv \
+             rtl/axi_AR_allocator.sv \
+             rtl/axi_ArbitrationTree.sv \
+             rtl/axi_ar_buffer.sv \
+             rtl/axi_AW_allocator.sv \
+             rtl/axi_aw_buffer.sv \
+             rtl/axi_b_buffer.sv \
+             rtl/axi_BR_allocator.sv \
+             rtl/axi_bus.sv \
+             rtl/axi_BW_allocator.sv \
+             rtl/axi_DW_allocator.sv \
+             rtl/axi_FanInPrimitive_Req.sv \
+             rtl/axi_mem_if_SP.sv \
+             rtl/axi_mem_if_SP_wrap.sv \
+             rtl/axi_multiplexer.sv \
+             rtl/axi_node_intf_wrap.sv \
+             rtl/axi_node.sv \
+             rtl/axi_pkg.sv \
+             rtl/axi_r_buffer.sv \
+             rtl/axi_read_only_ctrl.sv \
+             rtl/axi_request_block.sv \
+             rtl/axi_response_block.sv \
+             rtl/axi_RR_Flag_Req.sv \
+             rtl/axi_single_slice.sv \
+             rtl/axi_slice.sv \
+             rtl/axi_slice_wrap.sv \
+             rtl/axi_spi_slave.sv \
+             rtl/axi_spi_slave_wrap.sv \
+             rtl/axi_w_buffer.sv \
+             rtl/axi_write_only_ctrl.sv \
+             rtl/boot_code.sv \
+             rtl/boot_rom_wrap.sv \
+             rtl/cf_math_pkg.sv \
+             rtl/clk_rst_gen.sv \
+             rtl/cluster_clock_gating.sv \
+             rtl/cluster_clock_inverter.sv \
+             rtl/cluster_clock_mux2.sv \
+             rtl/config.sv \
+             rtl/core2axi.sv \
+             rtl/core2axi_wrap.sv \
+             rtl/core_region.sv \
+             rtl/dc_data_buffer.sv \
+             rtl/dc_full_detector.v \
+             rtl/dc_synchronizer.v \
+             rtl/dc_token_ring_fifo_din.v \
+             rtl/dc_token_ring_fifo_dout.v \
+             rtl/dc_token_ring.v \
+             rtl/debug_bus.sv \
+             rtl/defines_event_unit.sv \
+             rtl/dp_ram.sv \
+             rtl/dp_ram_wrap.sv \
+             rtl/fifo_v2.sv \
+             rtl/fifo_v3.sv \
+             rtl/generic_fifo.sv \
+             rtl/generic_service_unit.sv \
+             rtl/i2c_master_bit_ctrl.sv \
+             rtl/i2c_master_byte_ctrl.sv \
+             rtl/i2c_master_defines.sv \
+             rtl/instr_ram_wrap.sv \
+             rtl/io_generic_fifo.sv \
+             rtl/onehot_to_bin.sv \
+             rtl/periph_bus_wrap.sv \
+             rtl/peripherals.sv \
+             rtl/pulp_clock_gating.sv \
+             rtl/pulp_clock_inverter.sv \
+             rtl/pulp_clock_mux2.sv \
+             rtl/pulpino_top.sv \
+             rtl/pulpino_wrap.v \
+             rtl/ram_mux.sv \
+             rtl/random_stalls.sv \
+             rtl/register_file_test_wrap.sv \
+             rtl/fpnew_pkg.sv \
+             rtl/riscv_defines.v \
+             rtl/risc_mult.sv \
+             rtl/riscv_alu_div.sv \
+             rtl/riscv_alu.sv \
+             rtl/riscv_compressed_decoder.sv \
+             rtl/riscv_config.sv \
+             rtl/riscv_controller.sv \
+             rtl/riscv_core.sv \
+             rtl/riscv_cs_registers.sv \
+             rtl/riscv_decoder.sv \
+             rtl/riscv_ex_stage.sv \
+             rtl/riscv_fetch_fifo.sv \
+             rtl/riscv_hwloop_controller.sv \
+             rtl/riscv_hwloop_regs.sv \
+             rtl/riscv_id_stage.sv \
+             rtl/riscv_if_stage.sv \
+             rtl/riscv_int_controller.sv \
+             rtl/riscv_load_store_unit.sv \
+             rtl/riscv_mult.sv \
+             rtl/riscv_prefetch_buffer.sv \
+             rtl/riscv_register_file.sv \
+             rtl/rstgen.sv \
+             rtl/sleep_unit.sv \
+             rtl/spi_master_apb_if.sv \
+             rtl/spi_master_clkgen.sv \
+             rtl/spi_master_controller.sv \
+             rtl/spi_master_fifo.sv \
+             rtl/spi_master_rx.sv \
+             rtl/spi_master_tx.sv \
+             rtl/spi_slave_axi_plug.sv \
+             rtl/spi_slave_cmd_parser.sv \
+             rtl/spi_slave_controller.sv \
+             rtl/spi_slave_dc_fifo.sv \
+             rtl/spi_slave_regs.sv \
+             rtl/spi_slave_rx.sv \
+             rtl/spi_slave_syncro.sv \
+             rtl/spi_slave_tx.sv \
+             rtl/sp_ram.sv \
+             rtl/sp_ram_wrap.sv \
+             rtl/timer.sv \
+             rtl/uart_interrupt.sv \
+             rtl/uart_rx.sv \
+             rtl/uart_tx.sv
+
+##verbosity level   : 2
+##exact cmdline arg : -batch -project counter.prj -designread  -64bit
+##spyglass_run.csh begins :
+;	cd /home/nitintyagi/pulpino
+;	setenv ATRENTA_LICENSE_FILE 27020@vlsi
+;	setenv SPYGLASS_LD_PRELOAD /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/lib/libreplacemalloc.so
+;	setenv SPYGLASS_DW_PATH /home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/dw_support
+;	/home/synopsys/tools/spyglass/W-2024.09/SPYGLASS_HOME/bin/spyglass  -batch -project counter.prj -designread  -64bit
+##spyglass_run.csh ends
+##files    : rtl/adbg_axi_biu.sv \
+             rtl/adbg_axi_defines.v \
+             rtl/adbg_axi_module.sv \
+             rtl/adbg_crc32.sv \
+             rtl/adbg_defines.v \
+             rtl/adbg_or1k_biu.sv \
+             rtl/adbg_or1k_defines.v \
+             rtl/adbg_or1k_module.sv \
+             rtl/adbg_or1k_status_reg.sv \
+             rtl/adbg_tap_defines.v \
+             rtl/adbg_tap_top.sv \
+             rtl/adbg_top.sv \
+             rtl/adv_dbg_if.sv \
+             rtl/apb2per.sv \
+             rtl/apb_bus.sv \
+             rtl/apb_event_unit.sv \
+             rtl/apb_fll_if.sv \
+             rtl/apb_gpio.sv \
+             rtl/apb_i2c.sv \
+             rtl/apb_mock_uart.sv \
+             rtl/apb_node.sv \
+             rtl/apb_node_wrap.sv \
+             rtl/apb_pulpino.sv \
+             rtl/apb_spi_master.sv \
+             rtl/apb_timer.sv \
+             rtl/apb_uart_sv.sv \
+             rtl/apu_core_package.sv \
+             rtl/apu_defines.sv \
+             rtl/apu_macros.sv \
+             rtl/axi2apb.sv \
+             rtl/axi2apb_wrap.sv \
+             rtl/axi_address_decoder_AR.sv \
+             rtl/axi_address_decoder_AW.sv \
+             rtl/axi_address_decoder_BR.sv \
+             rtl/axi_address_decoder_BW.sv \
+             rtl/axi_address_decoder_DW.sv \
+             rtl/axi_AR_allocator.sv \
+             rtl/axi_ArbitrationTree.sv \
+             rtl/axi_ar_buffer.sv \
+             rtl/axi_AW_allocator.sv \
+             rtl/axi_aw_buffer.sv \
+             rtl/axi_b_buffer.sv \
+             rtl/axi_BR_allocator.sv \
+             rtl/axi_bus.sv \
+             rtl/axi_BW_allocator.sv \
+             rtl/axi_DW_allocator.sv \
+             rtl/axi_FanInPrimitive_Req.sv \
+             rtl/axi_mem_if_SP.sv \
+             rtl/axi_mem_if_SP_wrap.sv \
+             rtl/axi_multiplexer.sv \
+             rtl/axi_node_intf_wrap.sv \
+             rtl/axi_node.sv \
+             rtl/axi_pkg.sv \
+             rtl/axi_r_buffer.sv \
+             rtl/axi_read_only_ctrl.sv \
+             rtl/axi_request_block.sv \
+             rtl/axi_response_block.sv \
+             rtl/axi_RR_Flag_Req.sv \
+             rtl/axi_single_slice.sv \
+             rtl/axi_slice.sv \
+             rtl/axi_slice_wrap.sv \
+             rtl/axi_spi_slave.sv \
+             rtl/axi_spi_slave_wrap.sv \
+             rtl/axi_w_buffer.sv \
+             rtl/axi_write_only_ctrl.sv \
+             rtl/boot_code.sv \
+             rtl/boot_rom_wrap.sv \
+             rtl/cf_math_pkg.sv \
+             rtl/clk_rst_gen.sv \
+             rtl/cluster_clock_gating.sv \
+             rtl/cluster_clock_inverter.sv \
+             rtl/cluster_clock_mux2.sv \
+             rtl/config.sv \
+             rtl/core2axi.sv \
+             rtl/core2axi_wrap.sv \
+             rtl/core_region.sv \
+             rtl/dc_data_buffer.sv \
+             rtl/dc_full_detector.v \
+             rtl/dc_synchronizer.v \
+             rtl/dc_token_ring_fifo_din.v \
+             rtl/dc_token_ring_fifo_dout.v \
+             rtl/dc_token_ring.v \
+             rtl/debug_bus.sv \
+             rtl/defines_event_unit.sv \
+             rtl/dp_ram.sv \
+             rtl/dp_ram_wrap.sv \
+             rtl/fifo_v2.sv \
+             rtl/fifo_v3.sv \
+             rtl/generic_fifo.sv \
+             rtl/generic_service_unit.sv \
+             rtl/i2c_master_bit_ctrl.sv \
+             rtl/i2c_master_byte_ctrl.sv \
+             rtl/i2c_master_defines.sv \
+             rtl/instr_ram_wrap.sv \
+             rtl/io_generic_fifo.sv \
+             rtl/onehot_to_bin.sv \
+             rtl/periph_bus_wrap.sv \
+             rtl/peripherals.sv \
+             rtl/pulp_clock_gating.sv \
+             rtl/pulp_clock_inverter.sv \
+             rtl/pulp_clock_mux2.sv \
+             rtl/pulpino_top.sv \
+             rtl/pulpino_wrap.v \
+             rtl/ram_mux.sv \
+             rtl/random_stalls.sv \
+             rtl/register_file_test_wrap.sv \
+             rtl/fpnew_pkg.sv \
+             rtl/riscv_defines.v \
+             rtl/risc_mult.sv \
+             rtl/riscv_alu_div.sv \
+             rtl/riscv_alu.sv \
+             rtl/riscv_compressed_decoder.sv \
+             rtl/riscv_config.sv \
+             rtl/riscv_controller.sv \
+             rtl/riscv_core.sv \
+             rtl/riscv_cs_registers.sv \
+             rtl/riscv_decoder.sv \
+             rtl/riscv_ex_stage.sv \
+             rtl/riscv_fetch_fifo.sv \
+             rtl/riscv_hwloop_controller.sv \
+             rtl/riscv_hwloop_regs.sv \
+             rtl/riscv_id_stage.sv \
+             rtl/riscv_if_stage.sv \
+             rtl/riscv_int_controller.sv \
+             rtl/riscv_load_store_unit.sv \
+             rtl/riscv_mult.sv \
+             rtl/riscv_prefetch_buffer.sv \
+             rtl/riscv_register_file.sv \
+             rtl/rstgen.sv \
+             rtl/sleep_unit.sv \
+             rtl/spi_master_apb_if.sv \
+             rtl/spi_master_clkgen.sv \
+             rtl/spi_master_controller.sv \
+             rtl/spi_master_fifo.sv \
+             rtl/spi_master_rx.sv \
+             rtl/spi_master_tx.sv \
+             rtl/spi_slave_axi_plug.sv \
+             rtl/spi_slave_cmd_parser.sv \
+             rtl/spi_slave_controller.sv \
+             rtl/spi_slave_dc_fifo.sv \
+             rtl/spi_slave_regs.sv \
+             rtl/spi_slave_rx.sv \
+             rtl/spi_slave_syncro.sv \
+             rtl/spi_slave_tx.sv \
+             rtl/sp_ram.sv \
+             rtl/sp_ram_wrap.sv \
+             rtl/timer.sv \
+             rtl/uart_interrupt.sv \
+             rtl/uart_rx.sv \
+             rtl/uart_tx.sv
+
+RTL SGDC checks have been disabled as synthesis is not happening in the run.
+
+INFO [76]    Using './counter/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule ZeroSizeFile (Rule 1 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 2 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 3 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 4 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 5 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AbstractInterface (Rule 6 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoleteRules (Rule 7 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportDeprecatedRules (Rule 8 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 9 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 10 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 11 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 12 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 13 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_path03 (Rule 14 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 15 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 16 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 17 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 18 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 19 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 20 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 21 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 22 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 23 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 24 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 25 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 26 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 27 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 28 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 29 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 30 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 31 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 32 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 33 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 34 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 35 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 36 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 37 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 38 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 39 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 40 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 41 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 42 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 43 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 44 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 45 of total 117) .... done (Time = 0.00s, Memory = 128.0K)
+Checking Rule SGDC_ungroup01 (Rule 46 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 47 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 48 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 49 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port18 (Rule 50 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 51 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CMD_ignorelibs01 (Rule 52 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 53 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 54 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 55 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 0 sec, 0.18 sec, 603600 KB, 2456248 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis started: 0 sec, 0.18 sec, 603600 KB, 2456248 KB
+ Analyzing source file "rtl/adbg_axi_biu.sv" ....
+ Analyzing source file "rtl/adbg_axi_defines.v" ....
+ Analyzing source file "rtl/adbg_axi_module.sv" ....
+ Analyzing source file "rtl/adbg_crc32.sv" ....
+ Analyzing source file "rtl/adbg_defines.v" ....
+ Analyzing source file "rtl/adbg_or1k_biu.sv" ....
+ Analyzing source file "rtl/adbg_or1k_defines.v" ....
+ Analyzing source file "rtl/adbg_or1k_module.sv" ....
+ Analyzing source file "rtl/adbg_or1k_status_reg.sv" ....
+ Analyzing source file "rtl/adbg_tap_defines.v" ....
+ Analyzing source file "rtl/adbg_tap_top.sv" ....
+ Analyzing source file "rtl/adbg_top.sv" ....
+ Analyzing source file "rtl/adv_dbg_if.sv" ....
+ Analyzing source file "rtl/apb2per.sv" ....
+ Analyzing source file "rtl/apb_bus.sv" ....
+ Analyzing source file "rtl/apb_event_unit.sv" ....
+ Analyzing source file "rtl/apb_fll_if.sv" ....
+ Analyzing source file "rtl/apb_gpio.sv" ....
+ Analyzing source file "rtl/apb_i2c.sv" ....
+ Analyzing source file "rtl/apb_mock_uart.sv" ....
+ Analyzing source file "rtl/apb_node.sv" ....
+ Analyzing source file "rtl/apb_node_wrap.sv" ....
+ Analyzing source file "rtl/apb_pulpino.sv" ....
+ Analyzing source file "rtl/apb_spi_master.sv" ....
+ Analyzing source file "rtl/apb_timer.sv" ....
+ Analyzing source file "rtl/apb_uart_sv.sv" ....
+ Analyzing source file "rtl/apu_core_package.sv" ....
+ Analyzing source file "rtl/apu_defines.sv" ....
+ Analyzing source file "rtl/apu_macros.sv" ....
+ Analyzing source file "rtl/axi2apb.sv" ....
+ Analyzing source file "rtl/axi2apb_wrap.sv" ....
+ Analyzing source file "rtl/axi_address_decoder_AR.sv" ....
+ Analyzing source file "rtl/axi_address_decoder_AW.sv" ....
+ Analyzing source file "rtl/axi_address_decoder_BR.sv" ....
+ Analyzing source file "rtl/axi_address_decoder_BW.sv" ....
+ Analyzing source file "rtl/axi_address_decoder_DW.sv" ....
+ Analyzing source file "rtl/axi_AR_allocator.sv" ....
+ Analyzing source file "rtl/axi_ArbitrationTree.sv" ....
+ Analyzing source file "rtl/axi_ar_buffer.sv" ....
+ Analyzing source file "rtl/axi_AW_allocator.sv" ....
+ Analyzing source file "rtl/axi_aw_buffer.sv" ....
+ Analyzing source file "rtl/axi_b_buffer.sv" ....
+ Analyzing source file "rtl/axi_BR_allocator.sv" ....
+ Analyzing source file "rtl/axi_bus.sv" ....
+ Analyzing source file "rtl/axi_BW_allocator.sv" ....
+ Analyzing source file "rtl/axi_DW_allocator.sv" ....
+ Analyzing source file "rtl/axi_FanInPrimitive_Req.sv" ....
+ Analyzing source file "rtl/axi_mem_if_SP.sv" ....
+ Analyzing source file "rtl/axi_mem_if_SP_wrap.sv" ....
+ Analyzing source file "rtl/axi_multiplexer.sv" ....
+ Analyzing source file "rtl/axi_node_intf_wrap.sv" ....
+ Analyzing source file "rtl/axi_node.sv" ....
+ Analyzing source file "rtl/axi_pkg.sv" ....
+ Analyzing source file "rtl/axi_r_buffer.sv" ....
+ Analyzing source file "rtl/axi_read_only_ctrl.sv" ....
+ Analyzing source file "rtl/axi_request_block.sv" ....
+ Analyzing source file "rtl/axi_response_block.sv" ....
+ Analyzing source file "rtl/axi_RR_Flag_Req.sv" ....
+ Analyzing source file "rtl/axi_single_slice.sv" ....
+ Analyzing source file "rtl/axi_slice.sv" ....
+ Analyzing source file "rtl/axi_slice_wrap.sv" ....
+ Analyzing source file "rtl/axi_spi_slave.sv" ....
+ Analyzing source file "rtl/axi_spi_slave_wrap.sv" ....
+ Analyzing source file "rtl/axi_w_buffer.sv" ....
+ Analyzing source file "rtl/axi_write_only_ctrl.sv" ....
+ Analyzing source file "rtl/boot_code.sv" ....
+ Analyzing source file "rtl/boot_rom_wrap.sv" ....
+ Analyzing source file "rtl/cf_math_pkg.sv" ....
+ Analyzing source file "rtl/clk_rst_gen.sv" ....
+ Analyzing source file "rtl/cluster_clock_gating.sv" ....
+ Analyzing source file "rtl/cluster_clock_inverter.sv" ....
+ Analyzing source file "rtl/cluster_clock_mux2.sv" ....
+ Analyzing source file "rtl/config.sv" ....
+ Analyzing source file "rtl/core2axi.sv" ....
+ Analyzing source file "rtl/core2axi_wrap.sv" ....
+ Analyzing source file "rtl/core_region.sv" ....
+ Analyzing source file "rtl/dc_data_buffer.sv" ....
+ Analyzing source file "rtl/dc_full_detector.v" ....
+ Analyzing source file "rtl/dc_synchronizer.v" ....
+ Analyzing source file "rtl/dc_token_ring_fifo_din.v" ....
+ Analyzing source file "rtl/dc_token_ring_fifo_dout.v" ....
+ Analyzing source file "rtl/dc_token_ring.v" ....
+ Analyzing source file "rtl/debug_bus.sv" ....
+ Analyzing source file "rtl/defines_event_unit.sv" ....
+ Analyzing source file "rtl/dp_ram.sv" ....
+ Analyzing source file "rtl/dp_ram_wrap.sv" ....
+ Analyzing source file "rtl/fifo_v2.sv" ....
+ Analyzing source file "rtl/fifo_v3.sv" ....
+ Analyzing source file "rtl/generic_fifo.sv" ....
+ Analyzing source file "rtl/generic_service_unit.sv" ....
+ Analyzing source file "rtl/i2c_master_bit_ctrl.sv" ....
+ Analyzing source file "rtl/i2c_master_byte_ctrl.sv" ....
+ Analyzing source file "rtl/i2c_master_defines.sv" ....
+ Analyzing source file "rtl/instr_ram_wrap.sv" ....
+ Analyzing source file "rtl/io_generic_fifo.sv" ....
+ Analyzing source file "rtl/onehot_to_bin.sv" ....
+ Analyzing source file "rtl/periph_bus_wrap.sv" ....
+ Analyzing source file "rtl/peripherals.sv" ....
+ Analyzing source file "rtl/pulp_clock_gating.sv" ....
+ Analyzing source file "rtl/pulp_clock_inverter.sv" ....
+ Analyzing source file "rtl/pulp_clock_mux2.sv" ....
+ Analyzing source file "rtl/pulpino_top.sv" ....
+ Analyzing source file "rtl/pulpino_wrap.v" ....
+ Analyzing source file "rtl/ram_mux.sv" ....
+ Analyzing source file "rtl/random_stalls.sv" ....
+ Analyzing source file "rtl/register_file_test_wrap.sv" ....
+ Analyzing source file "rtl/fpnew_pkg.sv" ....
+ Analyzing source file "rtl/riscv_defines.v" ....
+ STX_VE_602          -            -            Syntax                        
+ Analyzing source file "rtl/risc_mult.sv" ....
+ Analyzing source file "rtl/riscv_alu_div.sv" ....
+ Analyzing source file "rtl/riscv_alu.sv" ....
+ Analyzing source file "rtl/riscv_compressed_decoder.sv" ....
+ Analyzing source file "rtl/riscv_config.sv" ....
+ Analyzing source file "rtl/riscv_controller.sv" ....
+ Analyzing source file "rtl/riscv_core.sv" ....
+ STX_VE_602          -            -            Syntax                        
+ STX_VE_602          -            -            Syntax                        
+ STX_VE_602          -            -            Syntax                        
+ Analyzing source file "rtl/riscv_cs_registers.sv" ....
+ STX_VE_602          -            -            Syntax                        
+ Analyzing source file "rtl/riscv_decoder.sv" ....
+ Analyzing source file "rtl/riscv_ex_stage.sv" ....
+ Analyzing source file "rtl/riscv_fetch_fifo.sv" ....
+ Analyzing source file "rtl/riscv_hwloop_controller.sv" ....
+ Analyzing source file "rtl/riscv_hwloop_regs.sv" ....
+ Analyzing source file "rtl/riscv_id_stage.sv" ....
+ Analyzing source file "rtl/riscv_if_stage.sv" ....
+ Analyzing source file "rtl/riscv_int_controller.sv" ....
+ Analyzing source file "rtl/riscv_load_store_unit.sv" ....
+ STX_VE_492          -            -            Syntax                        
+ Analyzing source file "rtl/riscv_mult.sv" ....
+ STX_VE_589          -            -            Syntax                        
+ Analyzing source file "rtl/riscv_prefetch_buffer.sv" ....
+ Analyzing source file "rtl/riscv_register_file.sv" ....
+ Analyzing source file "rtl/rstgen.sv" ....
+ Analyzing source file "rtl/sleep_unit.sv" ....
+ Analyzing source file "rtl/spi_master_apb_if.sv" ....
+ Analyzing source file "rtl/spi_master_clkgen.sv" ....
+ Analyzing source file "rtl/spi_master_controller.sv" ....
+ Analyzing source file "rtl/spi_master_fifo.sv" ....
+ Analyzing source file "rtl/spi_master_rx.sv" ....
+ Analyzing source file "rtl/spi_master_tx.sv" ....
+ Analyzing source file "rtl/spi_slave_axi_plug.sv" ....
+ Analyzing source file "rtl/spi_slave_cmd_parser.sv" ....
+ Analyzing source file "rtl/spi_slave_controller.sv" ....
+ Analyzing source file "rtl/spi_slave_dc_fifo.sv" ....
+ Analyzing source file "rtl/spi_slave_regs.sv" ....
+ Analyzing source file "rtl/spi_slave_rx.sv" ....
+ Analyzing source file "rtl/spi_slave_syncro.sv" ....
+ Analyzing source file "rtl/spi_slave_tx.sv" ....
+ Analyzing source file "rtl/sp_ram.sv" ....
+ Analyzing source file "rtl/sp_ram_wrap.sv" ....
+ Analyzing source file "rtl/timer.sv" ....
+ Analyzing source file "rtl/uart_interrupt.sv" ....
+ Analyzing source file "rtl/uart_rx.sv" ....
+ Analyzing source file "rtl/uart_tx.sv" ....
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 1 sec, 0.25 sec, 606096 KB, 2456248 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 1 sec, 0.07 sec, 2496 KB, 0 KB
+***Syntax Errors detected - RULE CHECKING ABORTED***
+Checking Rule ViolationLimitReached (Rule 56 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 57 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+
+SpyGlass Rule Checking ABORTED.
+
+        ********** LICENSE EXPIRY NOTIFICATION **********
+        Some or all of the license features at following license server(s)
+        are about to expire.
+
+        License Server: 27020@vlsi (HostID: 40ed00a2eb46)
+            Example: Feature "oemunlock 2024.09 (or > 2024.09)" expires in next 8 days.
+
+        You can use command "lmstat -a -c <License Server>" to get
+        details about the given license.
+
+        Please contact Spyglass Support or your CAD administrator
+        to renew your licenses.
+        ********** END OF LICENSE EXPIRY NOTIFICATION **********
+
+
+Generating data for Console...
+
+Generating moresimple report from './counter/Design_Read/spyglass.vdb' to './counter/Design_Read/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './counter/Design_Read/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './counter/Design_Read/spyglass.vdb' to './counter/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './counter/Design_Read/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './counter/consolidated_reports/Design_Read/'.
+Checking Rule ViolationLimitReached (Rule 56 of total 117) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 2456248 KB for entire run at 'DetectTopDesignUnits.Init' stage
+##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
+##SGDEBUG [VMPEAK_MEMORY]: 2456284 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 581876 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking aborted: 1 sec, 0.30 sec, 606432 KB, 2456248 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking aborted: 0 sec, 0.05 sec, 336 KB, 0 KB
+
+
+=====================================================================================
+							Rule Parameter Table
+=====================================================================================
+
+	PARAMETER-NAME                                     VALUE                DEFAULT VALUE
+-------------------------------------------------------------------------------------
+	-allow_clock_on_output_port                        no                   no
+	-check_clock_group_violations                      no                   no
+	-debug_proc                                        no                   no
+	-force_genclk_for_txv                              no                   no
+	-library_gen_clock_naming                          yes                  yes
+	-netlist_clock_polarity                            yes                  yes
+	-populate_comboelements_for_minmax_in_fromto       no                   no
+	-post_clock_group_population                       no                   no
+	-preserve_path                                     no                   no
+	-pt                                                no                   yes
+	-show_all_sdc_violations                           no                   no
+	-show_sdc_progress                                 no                   no
+	-suppress_sdc_violation_in_abstract                no                   no
+	-tc_cache_empty_collections                        no                   no
+	-tc_disable_caching                                no                   no
+	-tc_disable_ignored_command_dump                   yes                  yes
+	-tc_enable_sdc_393                                 no                   no
+	-tc_ignored_commands                               unspecified          unspecified
+	-tc_stop_parsing_ignored_commands                  yes                  yes
+	-truncate_through                                  yes                  yes
+	-write_sdc                                         no                   no
+=====================================================================================
+
+
+
+=====================================================================================
+                               Rule Status Table
+
+ RULE-NAME                      POLICY-NAME     ENABLED VIOL-CNT RULE-TYPE   ERROR-MSG         
+=====================================================================================
+ checkCMD_ignore01              SpyGlass        Yes            1 SETUP          -               
+ checkCMD_dirfile03             SpyGlass        Yes            2 SETUP          -               
+ STX_VE_602           (Verilog) SpyGlass        Yes            5 SETUP          -               
+ STX_VE_589           (Verilog) SpyGlass        Yes            1 SETUP          -               
+ STX_VE_492           (Verilog) SpyGlass        Yes            1 SETUP          -               
+-------------------------------------------------------------------------------------
+Note: VSDU type of rules (as seen in the above table) are not run on
+      unsynthesized modules reported by 'ErrorAnalyzeBBox/InfoAnalyzeBBox' messages
+      (Please see messages starting with keyword 'UnsynthesizedDU')
+
+##status : SpyGlass Rule Checking Aborted.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Command-line read  :      0 fatal,      0 error,        2 warnings,     1 information message 
+** Design Read        :      7 fatals,     0 error,        0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+** Total              :      7 fatals,     0 error,        2 warnings,     1 information message 
+
+  Total Number of Generated Messages     :        10 (7 fatals, 0 error, 2 warnings, 1 Info)
+  Number of Reported Messages            :        10 (7 fatals, 0 error, 2 warnings, 1 Info)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+Following FATAL message(s) generated in current run -
+
+Rule         Severity   File                           Line   Message
+-------------------------------------------------------------------------
+STX_VE_602   Syntax     rtl/fpnew_pkg.sv               14     Redefinition of name ( fpnew_pkg ). Previously defined in file ( rtl/fpnew_pkg.sv ), at line ( 14 )
+STX_VE_602   Syntax     rtl/apu_core_package.sv        22     Redefinition of name ( apu_core_package ). Previously defined in file ( rtl/apu_core_package.sv ), at line ( 22 )
+STX_VE_602   Syntax     rtl/fpnew_pkg.sv               14     Redefinition of name ( fpnew_pkg ). Previously defined in file ( rtl/fpnew_pkg.sv ), at line ( 14 )
+STX_VE_602   Syntax     rtl/riscv_defines.v            26     Redefinition of name ( riscv_defines ). Previously defined in file ( rtl/riscv_defines.v ), at line ( 26 )
+STX_VE_602   Syntax     rtl/cf_math_pkg.sv             18     Redefinition of name ( cf_math_pkg ). Previously defined in file ( rtl/cf_math_pkg.sv ), at line ( 18 )
+STX_VE_492   Syntax     rtl/riscv_load_store_unit.sv   293    Syntax error near ( final ). Please use 'set_option allow_non_lrm yes or set_option non_lrm_options allow_assert_final' to allow ( final construct ) NON-LRM feature
+STX_VE_589   Syntax     rtl/riscv_mult.sv              28     Module name ( riscv_mult ) previously declared in file ( rtl/risc_mult.sv ), at line no < 28 >. Specify 'set_option allow_module_override yes' to support multiple module definitions with the same name
+
+FATAL : Rule-checking aborted - design syntax error
+
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Top Module         :      
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/nitintyagi/pulpino/counter/consolidated_reports/Design_Read/ 
+
+   SpyGlass LogFile: 
+    /home/nitintyagi/pulpino/counter/Design_Read/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+     <Not Available>
+  
+
+   Technology Reports:  
+     <Not Available>
+   
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         7 Fatals,    0 Errors,      2 Warnings,      1 Infos
+---------------------------------------------------------------------------------------------------
+   
+---------------------------------------------------------------------------------------------------
+ 
+SpyGlass Exit Code 6 (Rule-checking terminated due to FATAL errors - design syntax error)
+SpyGlass total run-time is 00:03:31 (211 secs)
+SpyGlass total goal run-time is 00:00:01 (1 secs)
+SpyGlass total cpu-time is 1 secs
+SpyGlass run completed at 11:43:40 AM on Jan 23 2025

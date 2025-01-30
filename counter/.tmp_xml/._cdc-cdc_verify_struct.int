@@ -1,0 +1,7 @@
+INPUT@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass_reports@@/home/nitintyagi/pulpino/counter/html_reports/data_files/@@@@cdc-cdc_verify_struct@@
+COPY@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt@@data_files/_cdc-cdc_verify_struct_moresimple.rpt@@
+COPY@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/_cdc-cdc_verify_struct_no_msg_reporting_rules.rpt@@
+REGEN@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/_cdc-cdc_verify_struct_CDC-report.rpt.html@@
+COPY@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/_cdc-cdc_verify_struct_CDC-report.rpt@@
+PROCESS@@timing@@starc@@openmore@@morelint@@lowpower@@lint@@erc@@area@@Audits@@const_intern1@@constraints@@dft@@dft_dsm@@latch@@miscellaneous@@power_est@@simulation@@starc2002@@starc2005@@txv@@clock-reset@@SpyGlass
+COPY@@/home/nitintyagi/pulpino/counter/cdc/cdc_verify_struct/spyglass.log@@data_files/_cdc-cdc_verify_struct_spyglass.log@@

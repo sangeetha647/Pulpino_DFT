@@ -1,0 +1,319 @@
+##Data Import Section
+
+read_file -type hdl rtl/adbg_axi_biu.sv
+#BackRefFile:counter.prj #LineNumber:42
+read_file -type hdl rtl/adbg_axi_defines.v
+#BackRefFile:counter.prj #LineNumber:43
+read_file -type hdl rtl/adbg_axi_module.sv
+#BackRefFile:counter.prj #LineNumber:44
+read_file -type hdl rtl/adbg_crc32.sv
+#BackRefFile:counter.prj #LineNumber:45
+read_file -type hdl rtl/adbg_defines.v
+#BackRefFile:counter.prj #LineNumber:46
+read_file -type hdl rtl/adbg_or1k_biu.sv
+#BackRefFile:counter.prj #LineNumber:47
+read_file -type hdl rtl/adbg_or1k_defines.v
+#BackRefFile:counter.prj #LineNumber:48
+read_file -type hdl rtl/adbg_or1k_module.sv
+#BackRefFile:counter.prj #LineNumber:49
+read_file -type hdl rtl/adbg_or1k_status_reg.sv
+#BackRefFile:counter.prj #LineNumber:50
+read_file -type hdl rtl/adbg_tap_defines.v
+#BackRefFile:counter.prj #LineNumber:51
+read_file -type hdl rtl/adbg_tap_top.sv
+#BackRefFile:counter.prj #LineNumber:52
+read_file -type hdl rtl/adbg_top.sv
+#BackRefFile:counter.prj #LineNumber:53
+read_file -type hdl rtl/adv_dbg_if.sv
+#BackRefFile:counter.prj #LineNumber:54
+read_file -type hdl rtl/apb2per.sv
+#BackRefFile:counter.prj #LineNumber:55
+read_file -type hdl rtl/apb_bus.sv
+#BackRefFile:counter.prj #LineNumber:56
+read_file -type hdl rtl/apb_event_unit.sv
+#BackRefFile:counter.prj #LineNumber:57
+read_file -type hdl rtl/apb_fll_if.sv
+#BackRefFile:counter.prj #LineNumber:58
+read_file -type hdl rtl/apb_gpio.sv
+#BackRefFile:counter.prj #LineNumber:59
+read_file -type hdl rtl/apb_i2c.sv
+#BackRefFile:counter.prj #LineNumber:60
+read_file -type hdl rtl/apb_mock_uart.sv
+#BackRefFile:counter.prj #LineNumber:61
+read_file -type hdl rtl/apb_node.sv
+#BackRefFile:counter.prj #LineNumber:62
+read_file -type hdl rtl/apb_node_wrap.sv
+#BackRefFile:counter.prj #LineNumber:63
+read_file -type hdl rtl/apb_pulpino.sv
+#BackRefFile:counter.prj #LineNumber:64
+read_file -type hdl rtl/apb_spi_master.sv
+#BackRefFile:counter.prj #LineNumber:65
+read_file -type hdl rtl/apb_timer.sv
+#BackRefFile:counter.prj #LineNumber:66
+read_file -type hdl rtl/apb_uart_sv.sv
+#BackRefFile:counter.prj #LineNumber:67
+read_file -type hdl rtl/apu_core_package.sv
+#BackRefFile:counter.prj #LineNumber:68
+read_file -type hdl rtl/apu_defines.sv
+#BackRefFile:counter.prj #LineNumber:69
+read_file -type hdl rtl/apu_macros.sv
+#BackRefFile:counter.prj #LineNumber:70
+read_file -type hdl rtl/axi2apb.sv
+#BackRefFile:counter.prj #LineNumber:71
+read_file -type hdl rtl/axi2apb_wrap.sv
+#BackRefFile:counter.prj #LineNumber:72
+read_file -type hdl rtl/axi_address_decoder_AR.sv
+#BackRefFile:counter.prj #LineNumber:73
+read_file -type hdl rtl/axi_address_decoder_AW.sv
+#BackRefFile:counter.prj #LineNumber:74
+read_file -type hdl rtl/axi_address_decoder_BR.sv
+#BackRefFile:counter.prj #LineNumber:75
+read_file -type hdl rtl/axi_address_decoder_BW.sv
+#BackRefFile:counter.prj #LineNumber:76
+read_file -type hdl rtl/axi_address_decoder_DW.sv
+#BackRefFile:counter.prj #LineNumber:77
+read_file -type hdl rtl/axi_AR_allocator.sv
+#BackRefFile:counter.prj #LineNumber:78
+read_file -type hdl rtl/axi_ArbitrationTree.sv
+#BackRefFile:counter.prj #LineNumber:79
+read_file -type hdl rtl/axi_ar_buffer.sv
+#BackRefFile:counter.prj #LineNumber:80
+read_file -type hdl rtl/axi_AW_allocator.sv
+#BackRefFile:counter.prj #LineNumber:81
+read_file -type hdl rtl/axi_aw_buffer.sv
+#BackRefFile:counter.prj #LineNumber:82
+read_file -type hdl rtl/axi_b_buffer.sv
+#BackRefFile:counter.prj #LineNumber:83
+read_file -type hdl rtl/axi_BR_allocator.sv
+#BackRefFile:counter.prj #LineNumber:84
+read_file -type hdl rtl/axi_bus.sv
+#BackRefFile:counter.prj #LineNumber:85
+read_file -type hdl rtl/axi_BW_allocator.sv
+#BackRefFile:counter.prj #LineNumber:86
+read_file -type hdl rtl/axi_DW_allocator.sv
+#BackRefFile:counter.prj #LineNumber:87
+read_file -type hdl rtl/axi_FanInPrimitive_Req.sv
+#BackRefFile:counter.prj #LineNumber:88
+read_file -type hdl rtl/axi_mem_if_SP.sv
+#BackRefFile:counter.prj #LineNumber:89
+read_file -type hdl rtl/axi_mem_if_SP_wrap.sv
+#BackRefFile:counter.prj #LineNumber:90
+read_file -type hdl rtl/axi_multiplexer.sv
+#BackRefFile:counter.prj #LineNumber:91
+read_file -type hdl rtl/axi_node_intf_wrap.sv
+#BackRefFile:counter.prj #LineNumber:92
+read_file -type hdl rtl/axi_node.sv
+#BackRefFile:counter.prj #LineNumber:93
+read_file -type hdl rtl/axi_pkg.sv
+#BackRefFile:counter.prj #LineNumber:94
+read_file -type hdl rtl/axi_r_buffer.sv
+#BackRefFile:counter.prj #LineNumber:95
+read_file -type hdl rtl/axi_read_only_ctrl.sv
+#BackRefFile:counter.prj #LineNumber:96
+read_file -type hdl rtl/axi_request_block.sv
+#BackRefFile:counter.prj #LineNumber:97
+read_file -type hdl rtl/axi_response_block.sv
+#BackRefFile:counter.prj #LineNumber:98
+read_file -type hdl rtl/axi_RR_Flag_Req.sv
+#BackRefFile:counter.prj #LineNumber:99
+read_file -type hdl rtl/axi_single_slice.sv
+#BackRefFile:counter.prj #LineNumber:100
+read_file -type hdl rtl/axi_slice.sv
+#BackRefFile:counter.prj #LineNumber:101
+read_file -type hdl rtl/axi_slice_wrap.sv
+#BackRefFile:counter.prj #LineNumber:102
+read_file -type hdl rtl/axi_spi_slave.sv
+#BackRefFile:counter.prj #LineNumber:103
+read_file -type hdl rtl/axi_spi_slave_wrap.sv
+#BackRefFile:counter.prj #LineNumber:104
+read_file -type hdl rtl/axi_w_buffer.sv
+#BackRefFile:counter.prj #LineNumber:105
+read_file -type hdl rtl/axi_write_only_ctrl.sv
+#BackRefFile:counter.prj #LineNumber:106
+read_file -type hdl rtl/boot_code.sv
+#BackRefFile:counter.prj #LineNumber:107
+read_file -type hdl rtl/boot_rom_wrap.sv
+#BackRefFile:counter.prj #LineNumber:108
+read_file -type hdl rtl/cf_math_pkg.sv
+#BackRefFile:counter.prj #LineNumber:109
+read_file -type hdl rtl/clk_rst_gen.sv
+#BackRefFile:counter.prj #LineNumber:110
+read_file -type hdl rtl/cluster_clock_gating.sv
+#BackRefFile:counter.prj #LineNumber:111
+read_file -type hdl rtl/cluster_clock_inverter.sv
+#BackRefFile:counter.prj #LineNumber:112
+read_file -type hdl rtl/cluster_clock_mux2.sv
+#BackRefFile:counter.prj #LineNumber:113
+read_file -type hdl rtl/config.sv
+#BackRefFile:counter.prj #LineNumber:114
+read_file -type hdl rtl/core2axi.sv
+#BackRefFile:counter.prj #LineNumber:115
+read_file -type hdl rtl/core2axi_wrap.sv
+#BackRefFile:counter.prj #LineNumber:116
+read_file -type hdl rtl/core_region.sv
+#BackRefFile:counter.prj #LineNumber:117
+read_file -type hdl rtl/dc_data_buffer.sv
+#BackRefFile:counter.prj #LineNumber:118
+read_file -type hdl rtl/dc_full_detector.v
+#BackRefFile:counter.prj #LineNumber:119
+read_file -type hdl rtl/dc_synchronizer.v
+#BackRefFile:counter.prj #LineNumber:120
+read_file -type hdl rtl/dc_token_ring_fifo_din.v
+#BackRefFile:counter.prj #LineNumber:121
+read_file -type hdl rtl/dc_token_ring_fifo_dout.v
+#BackRefFile:counter.prj #LineNumber:122
+read_file -type hdl rtl/dc_token_ring.v
+#BackRefFile:counter.prj #LineNumber:123
+read_file -type hdl rtl/debug_bus.sv
+#BackRefFile:counter.prj #LineNumber:124
+read_file -type hdl rtl/defines_event_unit.sv
+#BackRefFile:counter.prj #LineNumber:125
+read_file -type hdl rtl/dp_ram.sv
+#BackRefFile:counter.prj #LineNumber:126
+read_file -type hdl rtl/dp_ram_wrap.sv
+#BackRefFile:counter.prj #LineNumber:127
+read_file -type hdl rtl/fifo_v2.sv
+#BackRefFile:counter.prj #LineNumber:128
+read_file -type hdl rtl/fifo_v3.sv
+#BackRefFile:counter.prj #LineNumber:129
+read_file -type hdl rtl/generic_fifo.sv
+#BackRefFile:counter.prj #LineNumber:130
+read_file -type hdl rtl/generic_service_unit.sv
+#BackRefFile:counter.prj #LineNumber:131
+read_file -type hdl rtl/i2c_master_bit_ctrl.sv
+#BackRefFile:counter.prj #LineNumber:132
+read_file -type hdl rtl/i2c_master_byte_ctrl.sv
+#BackRefFile:counter.prj #LineNumber:133
+read_file -type hdl rtl/i2c_master_defines.sv
+#BackRefFile:counter.prj #LineNumber:134
+read_file -type hdl rtl/instr_ram_wrap.sv
+#BackRefFile:counter.prj #LineNumber:135
+read_file -type hdl rtl/io_generic_fifo.sv
+#BackRefFile:counter.prj #LineNumber:136
+read_file -type hdl rtl/onehot_to_bin.sv
+#BackRefFile:counter.prj #LineNumber:137
+read_file -type hdl rtl/periph_bus_wrap.sv
+#BackRefFile:counter.prj #LineNumber:138
+read_file -type hdl rtl/peripherals.sv
+#BackRefFile:counter.prj #LineNumber:139
+read_file -type hdl rtl/pulp_clock_gating.sv
+#BackRefFile:counter.prj #LineNumber:140
+read_file -type hdl rtl/pulp_clock_inverter.sv
+#BackRefFile:counter.prj #LineNumber:141
+read_file -type hdl rtl/pulp_clock_mux2.sv
+#BackRefFile:counter.prj #LineNumber:142
+read_file -type hdl rtl/pulpino_top.sv
+#BackRefFile:counter.prj #LineNumber:143
+read_file -type hdl rtl/pulpino_wrap.v
+#BackRefFile:counter.prj #LineNumber:144
+read_file -type hdl rtl/ram_mux.sv
+#BackRefFile:counter.prj #LineNumber:145
+read_file -type hdl rtl/random_stalls.sv
+#BackRefFile:counter.prj #LineNumber:146
+read_file -type hdl rtl/register_file_test_wrap.sv
+#BackRefFile:counter.prj #LineNumber:147
+read_file -type hdl rtl/fpnew_pkg.sv
+#BackRefFile:counter.prj #LineNumber:148
+read_file -type hdl rtl/riscv_defines.v
+#BackRefFile:counter.prj #LineNumber:149
+read_file -type hdl rtl/risc_mult.sv
+#BackRefFile:counter.prj #LineNumber:150
+read_file -type hdl rtl/riscv_alu_div.sv
+#BackRefFile:counter.prj #LineNumber:151
+read_file -type hdl rtl/riscv_alu.sv
+#BackRefFile:counter.prj #LineNumber:152
+read_file -type hdl rtl/riscv_compressed_decoder.sv
+#BackRefFile:counter.prj #LineNumber:153
+read_file -type hdl rtl/riscv_config.sv
+#BackRefFile:counter.prj #LineNumber:154
+read_file -type hdl rtl/riscv_controller.sv
+#BackRefFile:counter.prj #LineNumber:155
+read_file -type hdl rtl/riscv_core.sv
+#BackRefFile:counter.prj #LineNumber:156
+read_file -type hdl rtl/riscv_cs_registers.sv
+#BackRefFile:counter.prj #LineNumber:157
+read_file -type hdl rtl/riscv_decoder.sv
+#BackRefFile:counter.prj #LineNumber:158
+read_file -type hdl rtl/riscv_ex_stage.sv
+#BackRefFile:counter.prj #LineNumber:159
+read_file -type hdl rtl/riscv_fetch_fifo.sv
+#BackRefFile:counter.prj #LineNumber:160
+read_file -type hdl rtl/riscv_hwloop_controller.sv
+#BackRefFile:counter.prj #LineNumber:161
+read_file -type hdl rtl/riscv_hwloop_regs.sv
+#BackRefFile:counter.prj #LineNumber:162
+read_file -type hdl rtl/riscv_id_stage.sv
+#BackRefFile:counter.prj #LineNumber:163
+read_file -type hdl rtl/riscv_if_stage.sv
+#BackRefFile:counter.prj #LineNumber:164
+read_file -type hdl rtl/riscv_int_controller.sv
+#BackRefFile:counter.prj #LineNumber:165
+read_file -type hdl rtl/riscv_load_store_unit.sv
+#BackRefFile:counter.prj #LineNumber:166
+read_file -type hdl rtl/riscv_mult.sv
+#BackRefFile:counter.prj #LineNumber:167
+read_file -type hdl rtl/riscv_prefetch_buffer.sv
+#BackRefFile:counter.prj #LineNumber:168
+read_file -type hdl rtl/riscv_register_file.sv
+#BackRefFile:counter.prj #LineNumber:169
+read_file -type hdl rtl/rstgen.sv
+#BackRefFile:counter.prj #LineNumber:170
+read_file -type hdl rtl/sleep_unit.sv
+#BackRefFile:counter.prj #LineNumber:171
+read_file -type hdl rtl/spi_master_apb_if.sv
+#BackRefFile:counter.prj #LineNumber:172
+read_file -type hdl rtl/spi_master_clkgen.sv
+#BackRefFile:counter.prj #LineNumber:173
+read_file -type hdl rtl/spi_master_controller.sv
+#BackRefFile:counter.prj #LineNumber:174
+read_file -type hdl rtl/spi_master_fifo.sv
+#BackRefFile:counter.prj #LineNumber:175
+read_file -type hdl rtl/spi_master_rx.sv
+#BackRefFile:counter.prj #LineNumber:176
+read_file -type hdl rtl/spi_master_tx.sv
+#BackRefFile:counter.prj #LineNumber:177
+read_file -type hdl rtl/spi_slave_axi_plug.sv
+#BackRefFile:counter.prj #LineNumber:178
+read_file -type hdl rtl/spi_slave_cmd_parser.sv
+#BackRefFile:counter.prj #LineNumber:179
+read_file -type hdl rtl/spi_slave_controller.sv
+#BackRefFile:counter.prj #LineNumber:180
+read_file -type hdl rtl/spi_slave_dc_fifo.sv
+#BackRefFile:counter.prj #LineNumber:181
+read_file -type hdl rtl/spi_slave_regs.sv
+#BackRefFile:counter.prj #LineNumber:182
+read_file -type hdl rtl/spi_slave_rx.sv
+#BackRefFile:counter.prj #LineNumber:183
+read_file -type hdl rtl/spi_slave_syncro.sv
+#BackRefFile:counter.prj #LineNumber:184
+read_file -type hdl rtl/spi_slave_tx.sv
+#BackRefFile:counter.prj #LineNumber:185
+read_file -type hdl rtl/sp_ram.sv
+#BackRefFile:counter.prj #LineNumber:186
+read_file -type hdl rtl/sp_ram_wrap.sv
+#BackRefFile:counter.prj #LineNumber:187
+read_file -type hdl rtl/timer.sv
+#BackRefFile:counter.prj #LineNumber:188
+read_file -type hdl rtl/uart_interrupt.sv
+#BackRefFile:counter.prj #LineNumber:189
+read_file -type hdl rtl/uart_rx.sv
+#BackRefFile:counter.prj #LineNumber:190
+read_file -type hdl rtl/uart_tx.sv
+#BackRefFile:counter.prj #LineNumber:191
+
+##Common Options Section
+
+set_option incdir { rtl/components }
+set_option incdir { rtl/includes }
+set_option incdir { rtl }
+set_option enableSV yes
+set_option enableSV09 yes
+set_option reportfile sg_report
+set_option language_mode mixed
+set_option projectwdir .
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+

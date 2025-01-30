@@ -1,0 +1,55 @@
+#!/bin/csh
+
+#==============================================================================
+# Modify settings below according to your environment.
+# VERDI_HOME : Verdi installation path 
+# VCS_HOME   : VCS Simulator Path.
+#==============================================================================
+
+#### Set up Verdi Install Directory ####
+  setenv VERDI_HOME /home/synopsys/tools/verdi/W-2024.09
+
+##### Set up VCS  Install Directory ####
+  setenv VCS_HOME /home/synopsys/tools/vcs/W-2024.09
+  
+#### Enable glitch and event sequence dumping. 
+  setenv NOVAS_FSDB_ENV_MAX_GLITCH_NUM 0
+  setenv NOVAS_FSDB_ENV_DUMP_SEQ_NUM on
+
+
+#==============================================================================
+# Set the path for Verdi and VCS 
+#===============================================================================
+set path = ($VERDI_HOME/bin $path); rehash
+set path=($VCS_HOME/bin $path );rehash
+
+
+#==============================================================================
+# Run VCS to generate simulation database and KDB 
+#===============================================================================
+ 
+vcs -sverilog -error=noMPD -full64 -j4 -timescale=1ns/1ps +v2k +systemverilogext+.sv +verilog2001ext+.v -f run_all.f -top pulpino +error+10000 -kdb -debug_access+all -lca +define+VERILATOR \
++incdir+/home/nitintyagi/pulpino/rtl \
++incdir+/home/nitintyagi/pulpino/rtl/includes \
++incdir+/home/nitintyagi/pulpino/tb \
++incdir+/home/nitintyagi/pulpino/ips/apb/apb_i2c/ \
++incdir+/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include \
++incdir+/home/nitintyagi/pulpino/ips/riscv/tb/serDiv \
++incdir+/home/nitintyagi/pulpino/ips/zero-riscy/include \
++incdir+/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl \
++incdir+/home/nitintyagi/pulpino/ips/axi/axi_node \
++incdir+/home/nitintyagi/pulpino/ips/riscv/include \
+-l sim.log
+
+#==============================================================================
+# Execute simv and invoke Verdi to debug in Interactive Debug mode 
+#===============================================================================
+
+#simv -verdi
+
+#==============================================================================
+# Generate FSDB and load FSDB/KDB in post simulation mode   
+#===============================================================================
+
+simv 
+verdi -ssf rtl.fsdb -arch32 -nologo &
