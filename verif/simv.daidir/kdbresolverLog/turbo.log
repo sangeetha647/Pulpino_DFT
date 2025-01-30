@@ -1,3 +1,0 @@
-Command Line: /home/synopsys/tools/vcs/W-2024.09/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir simv.daidir -saveLevel -ssv -ssy -q -logdir simv.daidir/kdbresolverLog
-uname(Linux vlsi 5.14.0-162.6.1.el9_1.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Nov 15 07:49:10 EST 2022 x86_64)
-au time 0.085797 0.064460 0.012199 delta 109494272 109494272 total 341823488 341823488

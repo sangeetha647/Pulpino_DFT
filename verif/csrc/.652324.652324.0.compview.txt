@@ -1,5 +1,0 @@
-{"vcs1":{"timestamp_begin":1738156851.203573938, "rt":0.12, "ut":0.02, "st":0.03}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1738156850.682460299}
-{"VCS_COMP_START_TIME": 1738156850.682460299}
-{"VCS_COMP_END_TIME": 1738156851.340290563}
-{"VCS_USER_OPTIONS": "-sverilog -error=noMPD -full64 -j4 -timescale=1ns/1ps +v2k +systemverilogext+.sv +verilog2001ext+.v -f run_all.f -top pulpino +error+10000 -kdb -debug_access+all -lca +define+VERILATOR +incdir+/home/nitintyagi/pulpino/rtl +incdir+/home/nitintyagi/pulpino/rtl/includes +incdir+/home/nitintyagi/pulpino/tb +incdir+/home/nitintyagi/pulpino/ips/apb/apb_i2c/ +incdir+/home/nitintyagi/pulpino/ips/apb/apb_event_unit/include +incdir+/home/nitintyagi/pulpino/ips/riscv/tb/serDiv +incdir+/home/nitintyagi/pulpino/ips/zero-riscy/include +incdir+/home/nitintyagi/pulpino/ips/adv_dbg_if/rtl +incdir+/home/nitintyagi/pulpino/ips/axi/axi_node +incdir+/home/nitintyagi/pulpino/ips/riscv/include -l sim.log"}
