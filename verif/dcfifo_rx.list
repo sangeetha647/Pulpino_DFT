@@ -1,0 +1,17 @@
+Hierarchy:
+pulpino.pulpino_i.peripherals_i.axi_spi_slave_i.axi_spi_slave_i.u_dcfifo_rx
+pulpino.pulpino_i.peripherals_i.axi_spi_slave_i.axi_spi_slave_i.u_dcfifo_rx.u_din
+pulpino.pulpino_i.peripherals_i.axi_spi_slave_i.axi_spi_slave_i.u_dcfifo_rx.u_dout
+
+Filelist:
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_spi_slave/spi_slave_dc_fifo.sv
+
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_din.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_data_buffer.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_full_detector.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_synchronizer.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring.v
+
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring_fifo_dout.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_synchronizer.v
+/home/nitintyagi/pulpino/rtl/ips/axi/axi_slice_dc/dc_token_ring.v
