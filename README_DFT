@@ -1,0 +1,18 @@
+To checkin your changes to main repository:
+
+cd to your newly cloned repo.
+
+1. Add/delete all files  to be checked in via following command:
+git add <file name>
+
+2. Specify username,email:
+git config --global user.email "sangeetha.koyyalamudi@eximietas.design"
+git config --global user.name "sangeetha647"
+
+2. Commit your changes:
+git commit -m "Reason and changes in this commit"
+
+4. Pushing your changes to main git repo: [CAREFULLY REVIEW BEFORE RUNNINg]
+git push origin main
+username: sangeetha647
+token: <contact nitin.tyagi@eximietas.design>
